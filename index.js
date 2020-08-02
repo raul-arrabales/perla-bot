@@ -28,37 +28,35 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   
   function likert2Int(likert)
   {
-    if (likert === "Puntos0") {
+    if (likert == "Puntos_0") {
       return 0;
-    } else if (likert === "Puntos1") {
+    } else if (likert == "Puntos_1") {
       return 1; 
-    } else if (likert === "Puntos2") {
+    } else if (likert == "Puntos_2") {
       return 2; 
-    } else if (likert === "Puntos3") {
+    } else if (likert == "Puntos_3") {
       return 3; 
+    } else {
+      return -1;
     }
   }
   
   function resp1Handler(agent) {
     // Spreadsheet Listener: 
-    // https:XXXXXXXXXXXXXXXXX
+ 
     
     // Get response from the user (respuesta parameter)
-    const {
-      resp
-    } = agent.parameters;
+    const resp = agent.parameters.respuesta; 
     
-    console.log("Respuesta del usuario:" + resp); 
-    console.log("Respuesta del usuario (int):" + likert2Int(resp)); 
+    console.log("Parametros respuesta: " + resp); 
+    console.log("Respuesta del usuario (int): " + likert2Int(resp)); 
     
     // Transform into an integer value and store in the likert array
     items[0] = likert2Int(resp); 
     
-    const data = [{P1: "1", P2: "2"}];
-    console.log("Hola");
+    const data = [{P1: items[0], P2: "2"}];
     console.log(data);
-    // console.log(qs.stringify(data));
-    axios.post('XXXXXXXXXXXXXXXXXX', 
+    axios.post('XXXXXXXXXXXXX', 
                data);
     
   }
