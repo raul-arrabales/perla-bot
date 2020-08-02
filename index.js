@@ -26,24 +26,36 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     agent.add(`I'm sorry, can you try again?`);
   }
   
+  var toType = function(obj) {
+  	return ({}).toString.call(obj).match(/\s([a-zA-Z]+)/)[1].toLowerCase();
+  }
+  
+  // Transform entity respuesta into an interget
+  // for PHQ9 score calculation
   function likert2Int(likert)
   {
-    if (likert == "Puntos_0") {
+    console.log("Likert: " + likert); 
+    console.log("Likert type: " + toType(likert)); 
+    var likertR = likert.toString().substring(0,8);
+    console.log("LikertR: " + likertR); 
+    
+    if (likertR == "Puntos_0") {
       return 0;
-    } else if (likert == "Puntos_1") {
+    } else if (likertR == "Puntos_1") {
       return 1; 
-    } else if (likert == "Puntos_2") {
+    } else if (likertR == "Puntos_2") {
       return 2; 
-    } else if (likert == "Puntos_3") {
+    } else if (likertR == "Puntos_3") {
       return 3; 
     } else {
+      console.log("no match");      
       return -1;
     }
   }
   
   function resp1Handler(agent) {
     // Spreadsheet Listener: 
- 
+
     
     // Get response from the user (respuesta parameter)
     const resp = agent.parameters.respuesta; 
@@ -56,7 +68,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     
     const data = [{P1: items[0], P2: "2"}];
     console.log(data);
-    axios.post('XXXXXXXXXXXXX', 
+    axios.post('XXXXXXXXXXXXXXX', 
                data);
     
   }
