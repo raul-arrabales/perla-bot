@@ -5,13 +5,19 @@ const admin = require('firebase-admin');
 const {WebhookClient} = require('dialogflow-fulfillment');
 const {Card, Suggestion} = require('dialogflow-fulfillment');
 
-const axios = require('axios');
+// const axios = require('axios');
+// const qs = require('qs');
+// const fetch = require('node-fetch');
+const https = require('https');
+
+// process.env.UV_THREADPOOL_SIZE = 120;
+// process.env['UV_THREADPOOL_SIZE'] = 120;
 
 // initialise DB connection
 
 admin.initializeApp({
 	credential: admin.credential.applicationDefault(),
-    databaseURL: 'ws://XXXXXXXXXXXXXXXXXX'
+    databaseURL: 'ws://XXXXXXXXXXXXXXXX'
 });
  
 process.env.DEBUG = 'dialogflow:debug'; // enables lib debugging statements
@@ -189,54 +195,90 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
           const score = p1+p2+p3+p4+p5+p6+p7+p8+p9;
           
           agent.add("Ya hemos terminado " + nombre +
-                    ", muchas gracias por contestar a mis preguntas.");
+                    ".");
     	  
           agent.add("Analizando tus respuestas estimo que tu PHQ-9 es de " +
                     score + " puntos. Te explico lo que significa:");      
 
           if ( score >= 10 ) {
-        	agent.add("Con la información que me has proporcionado he podido determinar que que existe cierto riesgo de que estés sufriendo un trastorno del ánimo.");      
-        	agent.add("Por lo tanto, es importante que te pongas en contacto con un profesional de la salud para realizar una evaluación más completa."); 
+        	agent.add("Existe cierto riesgo de que estés sufriendo un trastorno del ánimo.");      
+        	agent.add("Es importante que te pongas en contacto con un profesional de la salud para realizar una evaluación más completa."); 
     	  } else {
-        	agent.add("Con la información que me has proporcionado he podido determinar que no existe un riesgo alto de que padezcas un trastorno del ánimo.");
-        	agent.add("No obstante, te recomiendo que si notas cualquier malestar te pongas en contacto con tu profesional de la salud.");      
+        	agent.add("No existe un riesgo alto de que padezcas un trastorno del ánimo.");
+        	agent.add("No obstante, si notas cualquier malestar ponte en contacto con un profesional de la salud.");      
     	  }
 
-          agent.add("Te dejo unos enlaces con más información"); 
+          agent.add("Te dejo un enlace con más información:"); 
           
           agent.add(new Card({
-            title: 'Proyectos de Ciencia Ciudadana',
-		    buttonText: 'Proyectos de Ciencia Ciudadana',
-		    buttonUrl: 'https://www.psicobotica.com/labs/proyectos-de-ciencia-ciudadana/'
-	       }));
-
-           agent.add(new Card({
              title: 'Atención Psicológica Online',
 		     buttonText: 'Atención Psicológica Online',
 		     buttonUrl: 'https://www.psicobotica.com/atencion-psicologica-online/'
-	       }));
+	      }));
           
           // send data to the log sheet
-          const logdata = [
-      		{Timestamp: timestamp,
-       		 Name: nombre,
-       		 Email: email,
-       	     P1: p1, 
-       		 P2: p2, 
-             P3: p3, 
-             P4: p4, 
-             P5: p5, 
-             P6: p6, 
-             P7: p7, 
-             P8: p8, 
-             P9: p9, 
-             PHQ9: score
-           }];
+          // const logdata = [
+      	  // {Timestamp: timestamp,
+       	 // 	 Name: nombre,
+       		//  Email: email,
+       	   //   P1: p1, 
+       	// 	 P2: p2, 
+//              P3: p3, 
+   //           P4: p4, 
+      //        P5: p5, 
+         //     P6: p6, 
+            //  P7: p7, 
+           //   P8: p8, 
+           //   P9: p9, 
+           //   PHQ9: score
+         //   }];
            
-           console.log("Sending to sheet: " + logdata.toString());
+           const logData = 
+                 "Timestamp=" + timestamp.replace(/\s/g,'') + "&" +
+                 "Name=" + nombre + "&" +
+                 "Email=" + email + "&" +
+                 "P1=" + p1 + "&" +
+                 "P2=" + p2 + "&" +
+                 "P3=" + p3 + "&" +
+                 "P4=" + p4 + "&" +
+                 "P5=" + p5 + "&" +
+                 "P6=" + p6 + "&" +
+                 "P7=" + p7 + "&" +
+                 "P8=" + p8 + "&" +
+                 "P9=" + p9 + "&" +
+                 "PHQ9=" + score;
+          
+           const urlGet = "XXXXXXXXXXXXXXXXXXXXXXX/exec?" + logData; 
+                 
+           // var dataStr = qs.stringify(logdata);
+           console.log("Sending to sheet: " + urlGet);
     
-           axios.post('XXXXXXXXXXXXX', 
-               logdata);  
+           https.get(urlGet, (resp) => {
+  			  let data = '';
+  			  // A chunk of data has been recieved.
+              resp.on('data', (chunk) => {
+                 data += chunk;
+              });
+
+             // The whole response has been received. Print out the result.
+             resp.on('end', () => {
+                console.log(JSON.parse(data).explanation);
+             });
+
+           }).on("error", (err) => {
+              console.log("Error: " + err.message);
+           });
+          
+          
+           // fetch(urlGet)
+           //  .then(function(response) {
+           //  	return response.json();
+           //  }).then(function(myJson) {
+           //    console.log(myJson);
+           // });
+          
+           // return axios.post('XXXXXXXXXXXXXXXXXXXXXXXXXX', 
+           //    dataStr);  
         }
     });
                                                                  
