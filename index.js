@@ -17,8 +17,15 @@ const https = require('https');
 
 admin.initializeApp({
 	credential: admin.credential.applicationDefault(),
-    databaseURL: 'ws://XXXXXXXXXXXXXXXX'
+    databaseURL: 'ws:XXXXXXXXXXXXXXXXX'
 });
+
+// Generate "unique" userID
+const rand = Math.random();
+var userID = rand.toString().split('.').join(""); 
+console.log("UserID1: " + userID); 
+// userID = "pruebas";
+// console.log("UserID2: " + userID);
  
 process.env.DEBUG = 'dialogflow:debug'; // enables lib debugging statements
  
@@ -52,12 +59,26 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   
   // Get user's name
   function nombreHandler(agent) {
+    console.log("UserID3: " + userID);
     const nombre = agent.parameters.person.name;
     console.log("Nombre: " + nombre); 
     
-    return admin.database().ref('sessionData').update({
-      name: nombre
+    return admin.database().ref('sessionData/' + userID).set({
+      P1: 0, 
+      P2: 0,
+      P3: 0,
+      P4: 0,
+      P5: 0,
+      P6: 0,
+      P7: 0,
+      P8: 0,
+      P9: 0,
+      PHQ9: 0,
+      Name: nombre,
+      Timestamp: new Date().toLocaleString(),
+      Email: "no-email"
     });
+    
   }
   
   function resp1Handler(agent) {
@@ -67,8 +88,16 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Parametros respuesta 1: " + resp); 
     console.log("Respuesta 1 del usuario (int): " + respInt); 
    
-    return admin.database().ref('sessionData').update({
-      P1: respInt
+    return admin.database().ref('sessionData/' + userID).update({
+      P1: respInt 
+    }, function(error) {
+      if (error) {
+        // The write failed...
+        console.log("P1 DB save failed: " + error);
+      } else {
+        // Data saved successfully!
+        console.log("P1 saved to DB.");
+      }
     });
   }
 
@@ -79,7 +108,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Parametros respuesta 2: " + resp); 
     console.log("Respuesta 2 del usuario (int): " + respInt); 
    
-    return admin.database().ref('sessionData').update({
+    return admin.database().ref('sessionData/' + userID).update({
       P2: respInt
     });
   }
@@ -91,7 +120,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Parametros respuesta 3: " + resp); 
     console.log("Respuesta 3 del usuario (int): " + respInt); 
    
-    return admin.database().ref('sessionData').update({
+    return admin.database().ref('sessionData/' + userID).update({
       P3: respInt
     });
   }
@@ -103,7 +132,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Parametros respuesta 4: " + resp); 
     console.log("Respuesta 4 del usuario (int): " + respInt); 
    
-    return admin.database().ref('sessionData').update({
+    return admin.database().ref('sessionData/' + userID).update({
       P4: respInt
     });
   }
@@ -115,7 +144,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Parametros respuesta 5: " + resp); 
     console.log("Respuesta 5 del usuario (int): " + respInt); 
    
-    return admin.database().ref('sessionData').update({
+    return admin.database().ref('sessionData/' + userID).update({
       P5: respInt
     });
   }
@@ -127,7 +156,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Parametros respuesta 6: " + resp); 
     console.log("Respuesta 6 del usuario (int): " + respInt); 
    
-    return admin.database().ref('sessionData').update({
+    return admin.database().ref('sessionData/' + userID).update({
       P6: respInt
     });
   }
@@ -139,7 +168,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Parametros respuesta 7: " + resp); 
     console.log("Respuesta 7 del usuario (int): " + respInt); 
    
-    return admin.database().ref('sessionData').update({
+    return admin.database().ref('sessionData/' + userID).update({
       P7: respInt
     });
   }
@@ -151,7 +180,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Parametros respuesta 8: " + resp); 
     console.log("Respuesta 8 del usuario (int): " + respInt); 
    
-    return admin.database().ref('sessionData').update({
+    return admin.database().ref('sessionData/' + userID).update({
       P8: respInt
     });
   }
@@ -164,7 +193,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Parametros respuesta 9: " + resp); 
     console.log("Respuesta 9 del usuario (int): " + respInt); 
    
-    return admin.database().ref('sessionData').update({
+    return admin.database().ref('sessionData/' + userID).update({
       P9: respInt
     });
   }
@@ -175,14 +204,14 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Email: " + email); 
     
     const timestamp = new Date().toLocaleString();
-    console.log("TS: " + timestamp);  
+    console.log("TS: " + timestamp);    
     
-    return admin.database().ref('sessionData').once('value', 
+    return admin.database().ref('sessionData/' + userID).once('value', 
       function(data) {
         if ( data !== null)
         {
       	  console.log("Data read:" + data.toString());
-          let nombre = data.child('name').val(); 
+          let nombre = data.child('Name').val(); 
           let p1 = data.child('P1').val();
           let p2 = data.child('P2').val();
           let p3 = data.child('P3').val();
@@ -215,23 +244,6 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
 		     buttonText: 'Atención Psicológica Online',
 		     buttonUrl: 'https://www.psicobotica.com/atencion-psicologica-online/'
 	      }));
-          
-          // send data to the log sheet
-          // const logdata = [
-      	  // {Timestamp: timestamp,
-       	 // 	 Name: nombre,
-       		//  Email: email,
-       	   //   P1: p1, 
-       	// 	 P2: p2, 
-//              P3: p3, 
-   //           P4: p4, 
-      //        P5: p5, 
-         //     P6: p6, 
-            //  P7: p7, 
-           //   P8: p8, 
-           //   P9: p9, 
-           //   PHQ9: score
-         //   }];
            
            const logData = 
                  "Timestamp=" + timestamp.replace(/\s/g,'') + "&" +
@@ -248,7 +260,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
                  "P9=" + p9 + "&" +
                  "PHQ9=" + score;
           
-           const urlGet = "XXXXXXXXXXXXXXXXXXXXXXX/exec?" + logData; 
+           const urlGet = "XXXXXXXXXXXXXX/exec?" + logData; 
                  
            // var dataStr = qs.stringify(logdata);
            console.log("Sending to sheet: " + urlGet);
@@ -262,12 +274,19 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
 
              // The whole response has been received. Print out the result.
              resp.on('end', () => {
-                console.log(JSON.parse(data).explanation);
+                // console.log(JSON.parse(data).explanation);
+               console.log("end sent");
              });
 
            }).on("error", (err) => {
               console.log("Error: " + err.message);
            });
+          
+           return admin.database().ref('sessionData/' + userID).update({
+      		 Email: email,
+             PHQ9: score,
+      		 Timestamp: timestamp
+    	   });  
           
           
            // fetch(urlGet)
@@ -277,7 +296,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
            //    console.log(myJson);
            // });
           
-           // return axios.post('XXXXXXXXXXXXXXXXXXXXXXXXXX', 
+           // return axios.post('https://XXXXXXXXXXXXXXXX/exec', 
            //    dataStr);  
         }
     });
