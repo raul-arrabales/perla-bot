@@ -196,20 +196,22 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
 
           if ( score >= 10 ) {
         	agent.add("Con la información que me has proporcionado he podido determinar que que existe cierto riesgo de que estés sufriendo un trastorno del ánimo.");      
-        	agent.add("Por lo tanto, es importante que te pongas en contacto con un profesional de la salud para realizar una evaluación más completa"); 
+        	agent.add("Por lo tanto, es importante que te pongas en contacto con un profesional de la salud para realizar una evaluación más completa."); 
     	  } else {
         	agent.add("Con la información que me has proporcionado he podido determinar que no existe un riesgo alto de que padezcas un trastorno del ánimo.");
-        	agent.add("No obstante, te recomiendo que si notas cualquier malestar te pongas en contacto con tu profesional de la salud");      
+        	agent.add("No obstante, te recomiendo que si notas cualquier malestar te pongas en contacto con tu profesional de la salud.");      
     	  }
 
           agent.add("Te dejo unos enlaces con más información"); 
           
           agent.add(new Card({
+            title: 'Proyectos de Ciencia Ciudadana',
 		    buttonText: 'Proyectos de Ciencia Ciudadana',
 		    buttonUrl: 'https://www.psicobotica.com/labs/proyectos-de-ciencia-ciudadana/'
 	       }));
 
            agent.add(new Card({
+             title: 'Atención Psicológica Online',
 		     buttonText: 'Atención Psicológica Online',
 		     buttonUrl: 'https://www.psicobotica.com/atencion-psicologica-online/'
 	       }));
@@ -233,7 +235,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
            
            console.log("Sending to sheet: " + logdata.toString());
     
-           axios.post('XXXXXXXXXXXXXXXXX', 
+           axios.post('XXXXXXXXXXXXX', 
                logdata);  
         }
     });
@@ -258,4 +260,3 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
 
   agent.handleRequest(intentMap);
 });
-
