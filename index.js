@@ -5,10 +5,10 @@ const admin = require('firebase-admin');
 const {WebhookClient} = require('dialogflow-fulfillment');
 const {Card, Suggestion} = require('dialogflow-fulfillment');
 
-// const axios = require('axios');
+const axios = require('axios');
 // const qs = require('qs');
 // const fetch = require('node-fetch');
-const https = require('https');
+// const https = require('https');
 
 // process.env.UV_THREADPOOL_SIZE = 120;
 // process.env['UV_THREADPOOL_SIZE'] = 120;
@@ -17,7 +17,7 @@ const https = require('https');
 
 admin.initializeApp({
 	credential: admin.credential.applicationDefault(),
-    databaseURL: 'ws:XXXXXXXXXXXXXXXXX'
+    databaseURL: 'ws://XXXXXXXXXXXXXXXXXXXX'
 });
 
 // Generate "unique" userID
@@ -61,6 +61,29 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   function nombreHandler(agent) {
     console.log("UserID3: " + userID);
     const nombre = agent.parameters.person.name;
+    console.log("Nombre: " + nombre); 
+    
+    return admin.database().ref('sessionData/' + userID).set({
+      P1: 0, 
+      P2: 0,
+      P3: 0,
+      P4: 0,
+      P5: 0,
+      P6: 0,
+      P7: 0,
+      P8: 0,
+      P9: 0,
+      PHQ9: 0,
+      Name: nombre,
+      Timestamp: new Date().toLocaleString(),
+      Email: "no-email"
+    });
+    
+  }
+  
+    // Anon user
+  function noNombreHandler(agent) {
+    const nombre = "Anónimo";
     console.log("Nombre: " + nombre); 
     
     return admin.database().ref('sessionData/' + userID).set({
@@ -260,44 +283,44 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
                  "P9=" + p9 + "&" +
                  "PHQ9=" + score;
           
-           const urlGet = "XXXXXXXXXXXXXX/exec?" + logData; 
+           const urlGet = "https://XXXXXXXXXXXXXXXXXXXX/exec?" + logData; 
                  
            // var dataStr = qs.stringify(logdata);
            console.log("Sending to sheet: " + urlGet);
     
-           https.get(urlGet, (resp) => {
-  			  let data = '';
+           // https.get(urlGet, (resp) => {
+  		   //	  let data = '';
   			  // A chunk of data has been recieved.
-              resp.on('data', (chunk) => {
-                 data += chunk;
-              });
+           //   resp.on('data', (chunk) => {
+           //      data += chunk;
+           //   });
 
              // The whole response has been received. Print out the result.
-             resp.on('end', () => {
+           //  resp.on('end', () => {
                 // console.log(JSON.parse(data).explanation);
-               console.log("end sent");
-             });
+           //    console.log("end sent");
+           //  });
 
-           }).on("error", (err) => {
-              console.log("Error: " + err.message);
-           });
+           // }).on("error", (err) => {
+           //   console.log("Error: " + err.message);
+           // });
           
-           return admin.database().ref('sessionData/' + userID).update({
-      		 Email: email,
-             PHQ9: score,
-      		 Timestamp: timestamp
-    	   });  
-          
-          
-           // fetch(urlGet)
+           //fetch(urlGet)
            //  .then(function(response) {
            //  	return response.json();
            //  }).then(function(myJson) {
            //    console.log(myJson);
            // });
           
-           // return axios.post('https://XXXXXXXXXXXXXXXX/exec', 
-           //    dataStr);  
+           axios.get(urlGet).then(resp => {
+    		 console.log("Axios: " + resp.data);
+		   });
+          
+           return admin.database().ref('sessionData/' + userID).update({
+      		 Email: email,
+             PHQ9: score,
+      		 Timestamp: timestamp
+    	   });  
         }
     });
                                                                  
@@ -316,6 +339,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   intentMap.set('Respuesta9', resp9Handler);  
                 
   intentMap.set('Nombre', nombreHandler);
+  intentMap.set('NoNombre', noNombreHandler);
   
   intentMap.set('Email', emailHandler);
 
