@@ -83,7 +83,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   
     // Anon user
   function noNombreHandler(agent) {
-    const nombre = "Anónimo";
+    const nombre = "SinNombre";
     console.log("Nombre: " + nombre); 
     
     return admin.database().ref('sessionData/' + userID).set({
@@ -235,7 +235,9 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
         {
       	  console.log("Data read:" + data.toString());
           let nombre = data.child('Name').val(); 
+          console.log("Name from DB:" + nombre);
           let p1 = data.child('P1').val();
+          console.log("P1 from DB:" + p1);
           let p2 = data.child('P2').val();
           let p3 = data.child('P3').val();
           let p4 = data.child('P4').val();
@@ -283,7 +285,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
                  "P9=" + p9 + "&" +
                  "PHQ9=" + score;
           
-           const urlGet = "https://XXXXXXXXXXXXXXXXXXXX/exec?" + logData; 
+           const urlGet = "https://XXXXXXXXXXXXXXXXXXX/exec?" + logData; 
                  
            // var dataStr = qs.stringify(logdata);
            console.log("Sending to sheet: " + urlGet);
