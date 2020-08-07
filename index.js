@@ -17,13 +17,13 @@ const axios = require('axios');
 
 admin.initializeApp({
 	credential: admin.credential.applicationDefault(),
-    databaseURL: 'ws://XXXXXXXXXXXXXXXXXXXX'
+    databaseURL: 'ws://XXXXXXXXXXXXX.com'
 });
 
 // Generate "unique" userID
-const rand = Math.random();
-var userID = rand.toString().split('.').join(""); 
-console.log("UserID1: " + userID); 
+// var rand = Math.random();
+// var userID = rand.toString().split('.').join(""); 
+// console.log("UserID1: " + userID); 
 // userID = "pruebas";
 // console.log("UserID2: " + userID);
  
@@ -59,11 +59,36 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   
   // Get user's name
   function nombreHandler(agent) {
-    console.log("UserID3: " + userID);
-    const nombre = agent.parameters.person.name;
-    console.log("Nombre: " + nombre); 
     
-    return admin.database().ref('sessionData/' + userID).set({
+    // Unique User ID
+    let conv = agent.conv();
+    let userId;
+    
+    if (userId in conv.user.storage) {
+      userId = conv.user.storage.userId;
+      console.log("UserId Found: " + userId);
+    } else {      
+      var rand = Math.random();
+      userId = rand.toString().split('.').join("");       
+      conv.user.storage.userId = userId;
+      console.log("UserId Not Found. Created this: " + userId);
+    }
+
+    // Get Name
+    var nombre = "SinNombre";
+    const nombre1 = agent.parameters.person.name;
+    const nombre2 = agent.parameter.name; 
+    console.log("Nombre: " + nombre); 
+    console.log("Nombre2: " + nombre2); 
+    if ( nombre1 !== null ) {
+      nombre = nombre1; 
+    } else {
+      nombre = nombre2; 
+    }
+    console.log("Nombre BD: " + nombre); 
+    
+    // Create DB entry for this uid
+    return admin.database().ref('sessionData/' + userId).set({
       P1: 0, 
       P2: 0,
       P3: 0,
@@ -83,10 +108,23 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   
     // Anon user
   function noNombreHandler(agent) {
-    const nombre = "SinNombre";
-    console.log("Nombre: " + nombre); 
+
+    // Unique User ID
+    let conv = agent.conv();
+    let userId;
     
-    return admin.database().ref('sessionData/' + userID).set({
+    if (userId in conv.user.storage) {
+      userId = conv.user.storage.userId;
+      console.log("UserId Found: " + userId);
+    } else {      
+      var rand = Math.random();
+      userId = rand.toString().split('.').join("");       
+      conv.user.storage.userId = userId;
+      console.log("UserId Not Found. Created this: " + userId);
+    }
+    const nombre = "SinNombre";
+    
+    return admin.database().ref('sessionData/' + userId).set({
       P1: 0, 
       P2: 0,
       P3: 0,
@@ -110,8 +148,13 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     const respInt = likert2Int(resp);
     console.log("Parametros respuesta 1: " + resp); 
     console.log("Respuesta 1 del usuario (int): " + respInt); 
+    
+    // get id
+    let conv = agent.conv();
+    let userId = conv.user.storage.userId;
+    console.log("Using UserId " + userId);
    
-    return admin.database().ref('sessionData/' + userID).update({
+    return admin.database().ref('sessionData/' + userId).update({
       P1: respInt 
     }, function(error) {
       if (error) {
@@ -131,7 +174,12 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Parametros respuesta 2: " + resp); 
     console.log("Respuesta 2 del usuario (int): " + respInt); 
    
-    return admin.database().ref('sessionData/' + userID).update({
+    // get id
+    let conv = agent.conv();
+    let userId = conv.user.storage.userId;
+    console.log("Using UserId " + userId);
+    
+    return admin.database().ref('sessionData/' + userId).update({
       P2: respInt
     });
   }
@@ -142,8 +190,13 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     const respInt = likert2Int(resp);
     console.log("Parametros respuesta 3: " + resp); 
     console.log("Respuesta 3 del usuario (int): " + respInt); 
-   
-    return admin.database().ref('sessionData/' + userID).update({
+
+    // get id
+    let conv = agent.conv();
+    let userId = conv.user.storage.userId;
+    console.log("Using UserId " + userId);
+    
+    return admin.database().ref('sessionData/' + userId).update({
       P3: respInt
     });
   }
@@ -155,7 +208,12 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Parametros respuesta 4: " + resp); 
     console.log("Respuesta 4 del usuario (int): " + respInt); 
    
-    return admin.database().ref('sessionData/' + userID).update({
+    // get id
+    let conv = agent.conv();
+    let userId = conv.user.storage.userId;
+    console.log("Using UserId " + userId);
+    
+    return admin.database().ref('sessionData/' + userId).update({
       P4: respInt
     });
   }
@@ -167,7 +225,12 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Parametros respuesta 5: " + resp); 
     console.log("Respuesta 5 del usuario (int): " + respInt); 
    
-    return admin.database().ref('sessionData/' + userID).update({
+    // get id
+    let conv = agent.conv();
+    let userId = conv.user.storage.userId;
+    console.log("Using UserId " + userId);
+    
+    return admin.database().ref('sessionData/' + userId).update({
       P5: respInt
     });
   }
@@ -179,7 +242,12 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Parametros respuesta 6: " + resp); 
     console.log("Respuesta 6 del usuario (int): " + respInt); 
    
-    return admin.database().ref('sessionData/' + userID).update({
+    // get id
+    let conv = agent.conv();
+    let userId = conv.user.storage.userId;
+    console.log("Using UserId " + userId);
+    
+    return admin.database().ref('sessionData/' + userId).update({
       P6: respInt
     });
   }
@@ -191,7 +259,12 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Parametros respuesta 7: " + resp); 
     console.log("Respuesta 7 del usuario (int): " + respInt); 
    
-    return admin.database().ref('sessionData/' + userID).update({
+    // get id
+    let conv = agent.conv();
+    let userId = conv.user.storage.userId;
+    console.log("Using UserId " + userId);
+    
+    return admin.database().ref('sessionData/' + userId).update({
       P7: respInt
     });
   }
@@ -203,7 +276,12 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Parametros respuesta 8: " + resp); 
     console.log("Respuesta 8 del usuario (int): " + respInt); 
    
-    return admin.database().ref('sessionData/' + userID).update({
+    // get id
+    let conv = agent.conv();
+    let userId = conv.user.storage.userId;
+    console.log("Using UserId " + userId);
+    
+    return admin.database().ref('sessionData/' + userId).update({
       P8: respInt
     });
   }
@@ -216,7 +294,12 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Parametros respuesta 9: " + resp); 
     console.log("Respuesta 9 del usuario (int): " + respInt); 
    
-    return admin.database().ref('sessionData/' + userID).update({
+    // get id
+    let conv = agent.conv();
+    let userId = conv.user.storage.userId;
+    console.log("Using UserId " + userId);
+    
+    return admin.database().ref('sessionData/' + userId).update({
       P9: respInt
     });
   }
@@ -229,7 +312,12 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     const timestamp = new Date().toLocaleString();
     console.log("TS: " + timestamp);    
     
-    return admin.database().ref('sessionData/' + userID).once('value', 
+    // get id
+    let conv = agent.conv();
+    let userId = conv.user.storage.userId;
+    console.log("Using UserId " + userId);
+    
+    return admin.database().ref('sessionData/' + userId).once('value', 
       function(data) {
         if ( data !== null)
         {
@@ -285,9 +373,10 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
                  "P9=" + p9 + "&" +
                  "PHQ9=" + score;
           
-           const urlGet = "https://XXXXXXXXXXXXXXXXXXX/exec?" + logData; 
+           const urlGet = "https://XXXXXXXXXXXX/exec?" + logData; 
                  
            // var dataStr = qs.stringify(logdata);
+           console.log("UserID Final: " + userId);
            console.log("Sending to sheet: " + urlGet);
     
            // https.get(urlGet, (resp) => {
@@ -318,7 +407,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     		 console.log("Axios: " + resp.data);
 		   });
           
-           return admin.database().ref('sessionData/' + userID).update({
+           return admin.database().ref('sessionData/' + userId).update({
       		 Email: email,
              PHQ9: score,
       		 Timestamp: timestamp
