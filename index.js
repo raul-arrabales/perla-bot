@@ -17,7 +17,7 @@ const axios = require('axios');
 
 admin.initializeApp({
 	credential: admin.credential.applicationDefault(),
-    databaseURL: 'ws://pepa-v2-qsgi.firebaseio.com'
+    databaseURL: 'ws://XXXXXXXXXXXXXXXXXX'
 });
 
  
@@ -325,7 +325,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
                  "P9=" + p9 + "&" +
                  "PHQ9=" + score;
           
-           const urlGet = "https://script.google.com/macros/s/AKfycbxF1qic_8tHdRuDFqAOszH3WVyPN2LN4vQMI5RAo24MS0y8RCtx/exec?" + logData; 
+           const urlGet = "https://XXXXXXXXXXXXXXXXXXXX/exec?" + logData; 
                  
            // var dataStr = qs.stringify(logdata);
            console.log("UserID Final: " + sessionId);
