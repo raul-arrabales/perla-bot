@@ -17,15 +17,9 @@ const axios = require('axios');
 
 admin.initializeApp({
 	credential: admin.credential.applicationDefault(),
-    databaseURL: 'ws://XXXXXXXXXXXXX.com'
+    databaseURL: 'ws://pepa-v2-qsgi.firebaseio.com'
 });
 
-// Generate "unique" userID
-// var rand = Math.random();
-// var userID = rand.toString().split('.').join(""); 
-// console.log("UserID1: " + userID); 
-// userID = "pruebas";
-// console.log("UserID2: " + userID);
  
 process.env.DEBUG = 'dialogflow:debug'; // enables lib debugging statements
  
@@ -60,35 +54,22 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   // Get user's name
   function nombreHandler(agent) {
     
-    // Unique User ID
-    let conv = agent.conv();
-    let userId;
+    // Unique sess ID
+    const sessionId = agent.session;   
+    console.log("SESSION: " + sessionId); 
     
-    if (userId in conv.user.storage) {
-      userId = conv.user.storage.userId;
-      console.log("UserId Found: " + userId);
-    } else {      
-      var rand = Math.random();
-      userId = rand.toString().split('.').join("");       
-      conv.user.storage.userId = userId;
-      console.log("UserId Not Found. Created this: " + userId);
-    }
-
     // Get Name
     var nombre = "SinNombre";
     const nombre1 = agent.parameters.person.name;
-    const nombre2 = agent.parameter.name; 
+    const nombre2 = agent.parameters.name; 
     console.log("Nombre: " + nombre); 
     console.log("Nombre2: " + nombre2); 
-    if ( nombre1 !== null ) {
-      nombre = nombre1; 
-    } else {
-      nombre = nombre2; 
-    }
+    nombre = nombre1 || nombre2; 
+
     console.log("Nombre BD: " + nombre); 
     
     // Create DB entry for this uid
-    return admin.database().ref('sessionData/' + userId).set({
+    return admin.database().ref(sessionId).set({
       P1: 0, 
       P2: 0,
       P3: 0,
@@ -109,22 +90,13 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     // Anon user
   function noNombreHandler(agent) {
 
-    // Unique User ID
-    let conv = agent.conv();
-    let userId;
+    // Unique sess ID
+    const sessionId = agent.session;   
+    console.log("SESSION: " + sessionId); 
     
-    if (userId in conv.user.storage) {
-      userId = conv.user.storage.userId;
-      console.log("UserId Found: " + userId);
-    } else {      
-      var rand = Math.random();
-      userId = rand.toString().split('.').join("");       
-      conv.user.storage.userId = userId;
-      console.log("UserId Not Found. Created this: " + userId);
-    }
     const nombre = "SinNombre";
     
-    return admin.database().ref('sessionData/' + userId).set({
+    return admin.database().ref(sessionId).set({
       P1: 0, 
       P2: 0,
       P3: 0,
@@ -149,12 +121,10 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Parametros respuesta 1: " + resp); 
     console.log("Respuesta 1 del usuario (int): " + respInt); 
     
-    // get id
-    let conv = agent.conv();
-    let userId = conv.user.storage.userId;
-    console.log("Using UserId " + userId);
+    // Unique sess ID
+    const sessionId = agent.session;   
    
-    return admin.database().ref('sessionData/' + userId).update({
+    return admin.database().ref(sessionId).update({
       P1: respInt 
     }, function(error) {
       if (error) {
@@ -174,12 +144,10 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Parametros respuesta 2: " + resp); 
     console.log("Respuesta 2 del usuario (int): " + respInt); 
    
-    // get id
-    let conv = agent.conv();
-    let userId = conv.user.storage.userId;
-    console.log("Using UserId " + userId);
+    // Unique sess ID
+    const sessionId = agent.session;   
     
-    return admin.database().ref('sessionData/' + userId).update({
+    return admin.database().ref(sessionId).update({
       P2: respInt
     });
   }
@@ -191,12 +159,10 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Parametros respuesta 3: " + resp); 
     console.log("Respuesta 3 del usuario (int): " + respInt); 
 
-    // get id
-    let conv = agent.conv();
-    let userId = conv.user.storage.userId;
-    console.log("Using UserId " + userId);
+    // Unique sess ID
+    const sessionId = agent.session;   
     
-    return admin.database().ref('sessionData/' + userId).update({
+    return admin.database().ref(sessionId).update({
       P3: respInt
     });
   }
@@ -208,12 +174,10 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Parametros respuesta 4: " + resp); 
     console.log("Respuesta 4 del usuario (int): " + respInt); 
    
-    // get id
-    let conv = agent.conv();
-    let userId = conv.user.storage.userId;
-    console.log("Using UserId " + userId);
+    // Unique sess ID
+    const sessionId = agent.session;   
     
-    return admin.database().ref('sessionData/' + userId).update({
+    return admin.database().ref(sessionId).update({
       P4: respInt
     });
   }
@@ -224,13 +188,11 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     const respInt = likert2Int(resp);
     console.log("Parametros respuesta 5: " + resp); 
     console.log("Respuesta 5 del usuario (int): " + respInt); 
-   
-    // get id
-    let conv = agent.conv();
-    let userId = conv.user.storage.userId;
-    console.log("Using UserId " + userId);
     
-    return admin.database().ref('sessionData/' + userId).update({
+    // Unique sess ID
+    const sessionId = agent.session;   
+    
+    return admin.database().ref(sessionId).update({
       P5: respInt
     });
   }
@@ -242,12 +204,10 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Parametros respuesta 6: " + resp); 
     console.log("Respuesta 6 del usuario (int): " + respInt); 
    
-    // get id
-    let conv = agent.conv();
-    let userId = conv.user.storage.userId;
-    console.log("Using UserId " + userId);
+    // Unique sess ID
+    const sessionId = agent.session;   
     
-    return admin.database().ref('sessionData/' + userId).update({
+    return admin.database().ref(sessionId).update({
       P6: respInt
     });
   }
@@ -259,12 +219,10 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Parametros respuesta 7: " + resp); 
     console.log("Respuesta 7 del usuario (int): " + respInt); 
    
-    // get id
-    let conv = agent.conv();
-    let userId = conv.user.storage.userId;
-    console.log("Using UserId " + userId);
+    // Unique sess ID
+    const sessionId = agent.session;   
     
-    return admin.database().ref('sessionData/' + userId).update({
+    return admin.database().ref(sessionId).update({
       P7: respInt
     });
   }
@@ -276,12 +234,10 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Parametros respuesta 8: " + resp); 
     console.log("Respuesta 8 del usuario (int): " + respInt); 
    
-    // get id
-    let conv = agent.conv();
-    let userId = conv.user.storage.userId;
-    console.log("Using UserId " + userId);
+    // Unique sess ID
+    const sessionId = agent.session;   
     
-    return admin.database().ref('sessionData/' + userId).update({
+    return admin.database().ref(sessionId).update({
       P8: respInt
     });
   }
@@ -294,12 +250,10 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log("Parametros respuesta 9: " + resp); 
     console.log("Respuesta 9 del usuario (int): " + respInt); 
    
-    // get id
-    let conv = agent.conv();
-    let userId = conv.user.storage.userId;
-    console.log("Using UserId " + userId);
+    // Unique sess ID
+    const sessionId = agent.session;   
     
-    return admin.database().ref('sessionData/' + userId).update({
+    return admin.database().ref(sessionId).update({
       P9: respInt
     });
   }
@@ -312,12 +266,10 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     const timestamp = new Date().toLocaleString();
     console.log("TS: " + timestamp);    
     
-    // get id
-    let conv = agent.conv();
-    let userId = conv.user.storage.userId;
-    console.log("Using UserId " + userId);
+    // Unique sess ID
+    const sessionId = agent.session;   
     
-    return admin.database().ref('sessionData/' + userId).once('value', 
+    return admin.database().ref(sessionId).once('value', 
       function(data) {
         if ( data !== null)
         {
@@ -373,41 +325,17 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
                  "P9=" + p9 + "&" +
                  "PHQ9=" + score;
           
-           const urlGet = "https://XXXXXXXXXXXX/exec?" + logData; 
+           const urlGet = "https://script.google.com/macros/s/AKfycbxF1qic_8tHdRuDFqAOszH3WVyPN2LN4vQMI5RAo24MS0y8RCtx/exec?" + logData; 
                  
            // var dataStr = qs.stringify(logdata);
-           console.log("UserID Final: " + userId);
+           console.log("UserID Final: " + sessionId);
            console.log("Sending to sheet: " + urlGet);
     
-           // https.get(urlGet, (resp) => {
-  		   //	  let data = '';
-  			  // A chunk of data has been recieved.
-           //   resp.on('data', (chunk) => {
-           //      data += chunk;
-           //   });
-
-             // The whole response has been received. Print out the result.
-           //  resp.on('end', () => {
-                // console.log(JSON.parse(data).explanation);
-           //    console.log("end sent");
-           //  });
-
-           // }).on("error", (err) => {
-           //   console.log("Error: " + err.message);
-           // });
-          
-           //fetch(urlGet)
-           //  .then(function(response) {
-           //  	return response.json();
-           //  }).then(function(myJson) {
-           //    console.log(myJson);
-           // });
-          
            axios.get(urlGet).then(resp => {
     		 console.log("Axios: " + resp.data);
 		   });
           
-           return admin.database().ref('sessionData/' + userId).update({
+           return admin.database().ref(sessionId).update({
       		 Email: email,
              PHQ9: score,
       		 Timestamp: timestamp
