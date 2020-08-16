@@ -6,5 +6,7 @@ PERLA Project / raul@conscious-robots.com / Beta 2 Release (Aug 2020)
 - Analytics (descriptive and inferential analysis for Perla beta 2). 
 - Bot flow (not released yet).
 
+[Perla_320.png]
+
 Perla bot demo at: [Perla Demo (youtube)](https://www.youtube.com/watch?v=1ph-8UHc2IM)
 
