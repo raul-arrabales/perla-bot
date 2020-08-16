@@ -10,3 +10,5 @@ PERLA Project / raul@conscious-robots.com / Beta 2 Release (Aug 2020)
 - **Age**: participant's age in years (integer)
 - **Code**: anonymous participant code. 
 - **Delay**: days in between both tests. 
+- **PDepressed**: Perla depression screening (1: postive; 0: negative). 
+- **Depressed**: Self-Report depression screening (1: postive; 0: negative).
