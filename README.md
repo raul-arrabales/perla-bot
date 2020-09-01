@@ -14,7 +14,7 @@ Perla Home Page: [Psicobōtica Perla](https://www.psicobotica.com/productos/psic
 
 Paper (pre-print):<br>
 Arrabales, R. (2020). **Perla: A Conversational Agent for Depression Screening in Digital Ecosystems. Design, Implementation and Validation.**
-<br>arXiv [https://arxiv.org/abs/2008.12875](https://arxiv.org/abs/2008.12875)
+arXiv [https://arxiv.org/abs/2008.12875](https://arxiv.org/abs/2008.12875)
 
 
 Citation (bibtex): 
