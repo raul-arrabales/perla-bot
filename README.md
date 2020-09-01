@@ -18,13 +18,14 @@ Arrabales, R. (2020). Perla: A Conversational Agent for Depression Screening in 
 
 
 Citation (bibtex): 
-
-@misc{arrabales2020perla,<br>
-    title={Perla: A Conversational Agent for Depression Screening in Digital Ecosystems. Design, Implementation and Validation},<br>
-    author={Raúl Arrabales},<br>
-    year={2020},<br>
-    eprint={2008.12875},<br>
-    archivePrefix={arXiv},<br>
-    primaryClass={cs.CY}<br>
-}<br>
+<pre>
+@misc{arrabales2020perla,
+    title={Perla: A Conversational Agent for Depression Screening in Digital Ecosystems. Design, Implementation and Validation},
+    author={Raúl Arrabales},
+    year={2020},
+    eprint={2008.12875},
+    archivePrefix={arXiv},
+    primaryClass={cs.CY}
+}
+</pre>
 
