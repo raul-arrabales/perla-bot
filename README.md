@@ -13,7 +13,7 @@ Perla bot demo at: [Perla Demo (youtube)](https://www.youtube.com/watch?v=1ph-8U
 Perla Home Page: [Psicobōtica Perla](https://www.psicobotica.com/productos/psicologia-clinica/psicobotica-perla/)
 
 Paper (pre-print):<br>
-Arrabales, R. (2020). Perla: A Conversational Agent for Depression Screening in Digital Ecosystems. Design, Implementation and Validation. 
+Arrabales, R. (2020). **Perla: A Conversational Agent for Depression Screening in Digital Ecosystems. Design, Implementation and Validation.**
 <br>arXiv [https://arxiv.org/abs/2008.12875](https://arxiv.org/abs/2008.12875)
 
 
