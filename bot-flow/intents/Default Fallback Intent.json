@@ -1,0 +1,39 @@
+{
+  "id": "14e9fbd8-04b2-407a-b5ea-15fa0223fc58",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Ups, no he entendido a que te refieres.",
+            "Perdona, no te entiendo ¿puedes decírmelo de otra manera, por favor?",
+            "¿Disculpa? No te entiendo.",
+            "¿Qué quieres decir? No te entiendo",
+            "No te entiendo. Si quieres empezar de nuevo teclea \"reinicio\""
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

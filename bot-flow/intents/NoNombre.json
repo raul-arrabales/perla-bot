@@ -1,0 +1,62 @@
+{
+  "id": "35542eea-865c-4aed-968a-dbff8998dca2",
+  "name": "NoNombre",
+  "auto": true,
+  "contexts": [
+    "Esperar_Nombre"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Esperar_Resp1",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Sin problema, no hace falta que me digas como te llamas :-)  De todas formas tus respuestas son anónimas. Te llamaré \"Anónimo\" ;-)"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Permíteme que te haga unas preguntas:"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "La primera: durante las últimas 2 semanas, ¿con qué frecuencia te has encontrado con poco interés o poco placer en hacer las cosas?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

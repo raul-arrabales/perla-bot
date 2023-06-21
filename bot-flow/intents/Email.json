@@ -1,0 +1,60 @@
+{
+  "id": "418ce55b-deb1-4139-a9e8-457c2e7f8d92",
+  "name": "Email",
+  "auto": true,
+  "contexts": [
+    "Esperar_Email"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Esperar_Despedida",
+          "lifespan": 5
+        },
+        {
+          "name": "Esperar_Agradecimiento",
+          "lifespan": 5
+        },
+        {
+          "name": "Email-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "89f4e2b3-8763-4aa7-bd17-d919b2278f42",
+          "name": "email",
+          "required": true,
+          "dataType": "@sys.email",
+          "value": "$email",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Por favor, indícame tu dirección de correo electrónico."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

@@ -1,0 +1,64 @@
+{
+  "id": "1b549e71-5836-4233-a54a-9b50b051be11",
+  "parentId": "b74e84fd-c2ca-4198-8765-114f9606e868",
+  "rootParentId": "b74e84fd-c2ca-4198-8765-114f9606e868",
+  "name": "Respuesta7 - fallback",
+  "contexts": [
+    "Esperar_Resp8",
+    "Respuesta7-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Respuesta7.Respuesta7-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Ningún día"
+            },
+            {
+              "title": "Varios días"
+            },
+            {
+              "title": "A menudo"
+            },
+            {
+              "title": "Casi todos los días"
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Por favor, dime con qué frecuencia has tenido estas sensaciones de agitación o enlentecimiento."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

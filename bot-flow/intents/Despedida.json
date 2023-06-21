@@ -1,0 +1,46 @@
+{
+  "id": "aa102dff-7822-4917-b0d2-d03bda30130b",
+  "name": "Despedida",
+  "auto": true,
+  "contexts": [
+    "Esperar_Despedida"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Despedida-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "¡Hasta la próxima!",
+            "¡Hasta otra!",
+            "¡Adios!",
+            "¡Hasta luego!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

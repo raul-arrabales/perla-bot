@@ -1,0 +1,82 @@
+{
+  "id": "a083b4d1-0f42-4f05-9205-fc180618a86a",
+  "name": "Respuesta2",
+  "auto": true,
+  "contexts": [
+    "Esperar_Resp2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Esperar_Resp3",
+          "lifespan": 5
+        },
+        {
+          "name": "Respuesta2-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "cf289853-0674-441c-95f2-d46a11a9472a",
+          "name": "respuesta",
+          "required": true,
+          "dataType": "@Respuesta",
+          "value": "$respuesta",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Por favor indícame la frecuencia con la que te pasa"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Gracias por tu respuesta, me lo apunto, vamos ahora a por la siguiente\npregunta.",
+            "De acuerdo, anotado, seguimos con la siguiente pregunta.",
+            "Gracias, te entiendo, seguimos un poco más con la siguiente pregunta.",
+            "De acuerdo, seguimos con el resto de las preguntas."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "En estas últimas dos semanas, ¿con qué frecuencia has tenido problemas de sueño (dificultad para quedarte dormido/a o dormir demasiado)?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

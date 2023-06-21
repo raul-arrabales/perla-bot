@@ -1,0 +1,93 @@
+{
+  "id": "dfe5337c-e6cf-461c-adb9-d5110a34e086",
+  "name": "Respuesta5",
+  "auto": true,
+  "contexts": [
+    "Esperar_Resp5"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Esperar_Resp6",
+          "lifespan": 5
+        },
+        {
+          "name": "Respuesta5-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8a67ee86-963b-4967-aad7-7b815315412b",
+          "name": "respuesta",
+          "required": true,
+          "dataType": "@Respuesta",
+          "value": "$respuesta",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Por favor indícame la frecuencia con la que te pasa"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3a6b10fb-8e57-421b-a1d3-03cb0aa6cedd",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Gracias por tu respuesta, me lo apunto, vamos ahora a por la siguiente\npregunta.",
+            "De acuerdo, anotado, seguimos con la siguiente pregunta.",
+            "Gracias, te entiendo, seguimos un poco más con la siguiente pregunta.",
+            "De acuerdo, seguimos con el resto de las preguntas."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "En las últimas 2 semana, ¿con qué frecuencia te has sentido mal contigo mismo/a, que eres un fracaso o que has quedado mal contigo mismo/a o tu familia?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "d823181c-330c-4bc0-83f3-0cb36e79211c",
+  "name": "Acepta_Consent",
+  "auto": true,
+  "contexts": [
+    "Esperar_Confirmacion"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Esperar_Nombre",
+          "lifespan": 1
+        },
+        {
+          "name": "Acepta_Consent-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Genial, ¡pues vamos allá! Ahora te voy a ir haciendo algunas preguntas."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Dime por favor cómo te llamas, ¿cómo quieres que me dirija a ti?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "b113cd7e-aa39-4bb4-99e5-3f0b256c1c01",
+  "parentId": "418ce55b-deb1-4139-a9e8-457c2e7f8d92",
+  "rootParentId": "418ce55b-deb1-4139-a9e8-457c2e7f8d92",
+  "name": "Email - fallback",
+  "contexts": [
+    "Esperar_Despedida",
+    "Esperar_Agradecimiento",
+    "Email-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Email.Email-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Por favor, necesito que me indiques una dirección de correo electrónico."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

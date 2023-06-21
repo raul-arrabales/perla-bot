@@ -1,0 +1,39 @@
+{
+  "id": "5aef8444-6a15-4ab7-9380-4384604fe3b8",
+  "parentId": "5d25e6af-640b-48db-8497-8bf38f860381",
+  "rootParentId": "5d25e6af-640b-48db-8497-8bf38f860381",
+  "name": "Agradecimiento - fallback",
+  "contexts": [
+    "Esperar_Des",
+    "Agradecimiento-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Agradecimiento.Agradecimiento-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Ya hemos terminado :-) Si quieres empezar de nuevo teclea \"REINICIO\"."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

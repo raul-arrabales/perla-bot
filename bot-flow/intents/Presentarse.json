@@ -1,0 +1,73 @@
+{
+  "id": "0972370c-a276-4b4a-9c1e-82499254d5d7",
+  "name": "Presentarse",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Esperar_Confirmacion",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Sí"
+            },
+            {
+              "title": "No"
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "Consentimiento Informado Proyecto Perla",
+          "url": "https://www.psicobotica.com/legal-privacidad/consentimiento-informado-proyecto-perla/",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "¡Hola! ¡Encantada de saludarte! \nAntes de iniciar la entrevista necesito que me confirmes que has leído el consentimiento informado y que estás de acuerdo en participar en esta investigación:"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

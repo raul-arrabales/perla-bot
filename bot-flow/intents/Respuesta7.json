@@ -1,0 +1,80 @@
+{
+  "id": "b74e84fd-c2ca-4198-8765-114f9606e868",
+  "name": "Respuesta7",
+  "auto": true,
+  "contexts": [
+    "Esperar_Resp7"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Esperar_Resp8",
+          "lifespan": 5
+        },
+        {
+          "name": "Respuesta7-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f0b348ed-1729-4e36-8932-6d2299e3b88b",
+          "name": "respuesta",
+          "required": true,
+          "dataType": "@Respuesta",
+          "value": "$respuesta",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Por favor indícame la frecuencia con la que te pasa"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "De acuerdo, anotado, seguimos con la siguiente pregunta.",
+            "Gracias, te entiendo, seguimos un poco más con la siguiente pregunta.",
+            "De acuerdo, seguimos con el resto de las preguntas.",
+            "Ya nos queda poquito, vamos a por la siguiente pregunta.",
+            "Ok. Ya solo nos quedan dos preguntas más."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "En las últimas 2 semana, ¿con qué frecuencia te has movido muy lento o has estado inquieto/a y agitado/a, moviéndote más de lo normal?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

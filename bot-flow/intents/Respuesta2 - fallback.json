@@ -1,0 +1,64 @@
+{
+  "id": "4738630b-ebbb-4b36-b9b4-831138377954",
+  "parentId": "a083b4d1-0f42-4f05-9205-fc180618a86a",
+  "rootParentId": "a083b4d1-0f42-4f05-9205-fc180618a86a",
+  "name": "Respuesta2 - fallback",
+  "contexts": [
+    "Esperar_Resp3",
+    "Respuesta2-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Respuesta2.Respuesta2-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Ningún día"
+            },
+            {
+              "title": "Varios días"
+            },
+            {
+              "title": "A menudo"
+            },
+            {
+              "title": "Casi todos los días"
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Por favor, indícame con qué frecuencia has tenido estos problemas."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

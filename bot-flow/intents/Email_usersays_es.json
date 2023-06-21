@@ -1,0 +1,142 @@
+[
+  {
+    "id": "82f24202-8997-490a-aa32-5069687dcb05",
+    "data": [
+      {
+        "text": "es ",
+        "userDefined": false
+      },
+      {
+        "text": "tomas91@hotmail.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "11ebf571-f906-49ad-992b-9a7a99f84530",
+    "data": [
+      {
+        "text": "mi e-mail es ",
+        "userDefined": false
+      },
+      {
+        "text": "mari23@yahoo.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ac6d4a76-a18c-400b-b471-b30bc9bf662f",
+    "data": [
+      {
+        "text": "el email es ",
+        "userDefined": false
+      },
+      {
+        "text": "juan.perez@organizacion.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "0b57e32d-812c-4a6c-8b79-1204e30c0ba5",
+    "data": [
+      {
+        "text": "mi correo es ",
+        "userDefined": false
+      },
+      {
+        "text": "nombre@dominio.org",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ad568e63-8559-4fbf-aa49-5d39a12bf7af",
+    "data": [
+      {
+        "text": "mi email es ",
+        "userDefined": false
+      },
+      {
+        "text": "este@ejemplo.es",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "699349c5-a443-43dc-a07a-c6cabfeffd15",
+    "data": [
+      {
+        "text": "raul.arrabales@psicobotica.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "5c2a2e69-34ab-482e-b349-4b622fb83d7c",
+    "data": [
+      {
+        "text": "pepe@hotmail.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "75c85389-b7de-43a1-9c69-390db7df72fd",
+    "data": [
+      {
+        "text": "raul@gmail.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

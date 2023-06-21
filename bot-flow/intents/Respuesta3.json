@@ -1,0 +1,82 @@
+{
+  "id": "c1e1f1d5-78a2-448a-9884-f54d193e97e1",
+  "name": "Respuesta3",
+  "auto": true,
+  "contexts": [
+    "Esperar_Resp3"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Esperar_Resp4",
+          "lifespan": 5
+        },
+        {
+          "name": "Respuesta3-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9befaf37-1be8-4066-a24e-61a1d361f23c",
+          "name": "respuesta",
+          "required": true,
+          "dataType": "@Respuesta",
+          "value": "$respuesta",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Por favor indícame la frecuencia con la que te pasa"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Gracias por tu respuesta, me lo apunto, vamos ahora a por la siguiente\npregunta.",
+            "De acuerdo, anotado, seguimos con la siguiente pregunta.",
+            "Gracias, te entiendo, seguimos un poco más con la siguiente pregunta.",
+            "De acuerdo, seguimos con el resto de las preguntas."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "En las últimas 2 semana, ¿con qué frecuencia te has sentido cansado/a o con poca energía?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

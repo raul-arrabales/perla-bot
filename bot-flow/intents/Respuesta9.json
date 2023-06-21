@@ -1,0 +1,76 @@
+{
+  "id": "7758ac1f-cdde-40b3-a3c7-c73d44132d02",
+  "name": "Respuesta9",
+  "auto": true,
+  "contexts": [
+    "Esperar_Resp9"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Esperar_Email",
+          "lifespan": 5
+        },
+        {
+          "name": "Respuesta9-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "683f78dd-6bd9-451b-8e5d-ddd5af6d04c6",
+          "name": "respuesta",
+          "required": true,
+          "dataType": "@Respuesta",
+          "value": "$respuesta",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Por favor indícame la frecuencia con la que te pasa"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "¡Muchas gracias por contestar a mis preguntas!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Para finalizar indícame por favor tu dirección de email y te explico mis conclusiones preliminares."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

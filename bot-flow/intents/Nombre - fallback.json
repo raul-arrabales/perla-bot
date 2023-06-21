@@ -1,0 +1,64 @@
+{
+  "id": "16958278-3414-4de3-a3eb-c7957203a034",
+  "parentId": "5e03705f-da27-4fe6-897e-cfb63418fb58",
+  "rootParentId": "5e03705f-da27-4fe6-897e-cfb63418fb58",
+  "name": "Nombre - fallback",
+  "contexts": [
+    "Esperar_Resp1",
+    "Nombre-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Nombre.Nombre-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Ningún día"
+            },
+            {
+              "title": "Varios días"
+            },
+            {
+              "title": "A menudo"
+            },
+            {
+              "title": "Casi todos los días"
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Por favor, dime con qué frecuencia has estado con poco interés."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,257 @@
+[
+  {
+    "id": "e94b669c-672a-4922-89f2-fe5aa1276a1d",
+    "data": [
+      {
+        "text": "no te lo digo",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8fefd28e-9998-4773-9b73-1c22f46876ef",
+    "data": [
+      {
+        "text": "sin nombre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d8d1877a-be3b-4603-a62a-44a80a6b28f3",
+    "data": [
+      {
+        "text": "no tengo nombre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "40b50a1d-b347-41bb-bdd1-617fd27cf79c",
+    "data": [
+      {
+        "text": "no quiero decirte ",
+        "userDefined": false
+      },
+      {
+        "text": "mi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " nombre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "0b7f79c3-5a51-4c5e-9c32-883753056479",
+    "data": [
+      {
+        "text": "no quiero",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3b64b61e-1107-43d0-ab54-ead1cec10bca",
+    "data": [
+      {
+        "text": "no quiero decir ",
+        "userDefined": false
+      },
+      {
+        "text": "mi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " nombre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c3cea12e-be5c-43b0-8f59-db845bad4634",
+    "data": [
+      {
+        "text": "mi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " nombre ",
+        "userDefined": false
+      },
+      {
+        "text": "es",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " privado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9a19e485-8ed4-420a-9f1e-816e5cf881d6",
+    "data": [
+      {
+        "text": "no te digo como me llamo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "87ad754a-804f-4b98-8eb3-ceb74c47a29f",
+    "data": [
+      {
+        "text": "no te digo ",
+        "userDefined": false
+      },
+      {
+        "text": "mi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " nombre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ec710b10-6033-48f9-be7b-7fafbab1531f",
+    "data": [
+      {
+        "text": "mantenerme anónimo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1a24c25a-e720-4d95-9cfe-9318ec5efe58",
+    "data": [
+      {
+        "text": "quiero ser anónimo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3378f91e-5ad7-42ff-a914-ae8410b01089",
+    "data": [
+      {
+        "text": "mejor no te digo como me llamo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "bf512134-4692-4983-9d55-9c929170dca0",
+    "data": [
+      {
+        "text": "paso",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " de decirte como me llamo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b3857878-a965-4e94-90ba-07b8dfb4df45",
+    "data": [
+      {
+        "text": "no quiero decirlo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1573be79-88e1-42c7-add7-60b1d74c0acf",
+    "data": [
+      {
+        "text": "prefiero no decirlo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7a38ae82-8791-435f-ad5d-a1c1a7cd82ac",
+    "data": [
+      {
+        "text": "anónimo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

@@ -1,0 +1,144 @@
+[
+  {
+    "id": "d3caf4fe-d2ac-49d7-b010-cc0bfab8ce53",
+    "data": [
+      {
+        "text": "ahora",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d0c8a5c9-539a-4ce8-9dd8-8444fe6f97de",
+    "data": [
+      {
+        "text": "no puedo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "807670bd-1df3-44b9-8bed-06e5e7079b76",
+    "data": [
+      {
+        "text": "ahora",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " no puedo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f5e9132e-9fac-46f2-9d30-e4500a810520",
+    "data": [
+      {
+        "text": "de ninguna manera",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "0c873cf0-94a5-4a38-b049-339de49b7aae",
+    "data": [
+      {
+        "text": "cancelar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "4105007b-6179-4b6d-97bb-370a52749ff5",
+    "data": [
+      {
+        "text": "salir",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "814532c8-b8b8-4b7b-946b-a72ecb0b5ba7",
+    "data": [
+      {
+        "text": "No quiero",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "06d905aa-6e68-425c-97ee-c3eaaddbdc40",
+    "data": [
+      {
+        "text": "No estoy de acuerdo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d071fb6f-2188-4dde-8260-d16c247fe55a",
+    "data": [
+      {
+        "text": "Nop",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "fa567120-358f-47c7-8dca-ee71b74b2c56",
+    "data": [
+      {
+        "text": "No",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

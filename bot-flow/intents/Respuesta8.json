@@ -1,0 +1,76 @@
+{
+  "id": "7887179f-fd5d-4fc3-bbc9-7d2b2cd53f21",
+  "name": "Respuesta8",
+  "auto": true,
+  "contexts": [
+    "Esperar_Resp8"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Esperar_Resp9",
+          "lifespan": 5
+        },
+        {
+          "name": "Respuesta8-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b2243ed9-53e9-4218-ac1a-8993eca9b220",
+          "name": "respuesta",
+          "required": true,
+          "dataType": "@Respuesta",
+          "value": "$respuesta",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Por favor indícame la frecuencia con la que te pasa"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Tomo nota. Vamos ya a por la última pregunta que quería hacerte."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "En las últimas 2 semana, ¿con qué frecuencia has pensado que estarías mejor muerto o en hacerte daño de alguna manera?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

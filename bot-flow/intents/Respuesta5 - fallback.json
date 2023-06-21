@@ -1,0 +1,64 @@
+{
+  "id": "37bbf992-5c11-4afe-b62a-551c1044d724",
+  "parentId": "dfe5337c-e6cf-461c-adb9-d5110a34e086",
+  "rootParentId": "dfe5337c-e6cf-461c-adb9-d5110a34e086",
+  "name": "Respuesta5 - fallback",
+  "contexts": [
+    "Esperar_Resp6",
+    "Respuesta5-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Respuesta5.Respuesta5-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Ningún día"
+            },
+            {
+              "title": "Varios días"
+            },
+            {
+              "title": "A menudo"
+            },
+            {
+              "title": "Casi todos los días"
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Por favor, dime con qué frecuencia te has sentido así en las últimas dos semanas."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": "5d25e6af-640b-48db-8497-8bf38f860381",
+  "name": "Agradecimiento",
+  "auto": true,
+  "contexts": [
+    "Esperar_Agradecimiento"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Esperar_Des",
+          "lifespan": 5
+        },
+        {
+          "name": "Agradecimiento-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "¡Gracias a ti!",
+            "¡Un placer!",
+            "¡De nada! Un placer :-)"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

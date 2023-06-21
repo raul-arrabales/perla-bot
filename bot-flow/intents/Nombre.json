@@ -1,0 +1,111 @@
+{
+  "id": "5e03705f-da27-4fe6-897e-cfb63418fb58",
+  "name": "Nombre",
+  "auto": true,
+  "contexts": [
+    "Esperar_Nombre"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Esperar_Resp1",
+          "lifespan": 5
+        },
+        {
+          "name": "Nombre-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7888a4e8-d1c1-45e6-a576-a74a9aeaa9c3",
+          "name": "person",
+          "required": false,
+          "dataType": "@sys.person",
+          "value": "$person",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Perdona, no reconozco ese nombre, ¿cómo te llamas?"
+            },
+            {
+              "lang": "es",
+              "value": "Lo siento, no entiendo ese nombre, ¿podrías darme un nombre más común como \"María\" o \"Juan\"?"
+            },
+            {
+              "lang": "es",
+              "value": "Disculpa, no reconozco ese nombre. Dime por favor un nombre más fácil para mí."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "7774b3d3-b217-493d-b8f8-414035237e67",
+          "name": "name",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Encantada $person :-) Ahora voy a hacerte unas preguntas:"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Encantada $name :-) Ahora voy a hacerte unas preguntas:"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "La primera: durante las últimas 2 semanas, ¿con qué frecuencia te has encontrado con poco interés o poco placer en hacer las cosas?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

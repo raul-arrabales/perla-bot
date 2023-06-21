@@ -1,0 +1,3969 @@
+[
+  {
+    "id": "217ddd75-e5fc-4bce-9afd-c7913e9d66c4",
+    "data": [
+      {
+        "text": "algunos",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "6e8e2a86-9124-442b-83c8-3659bf4649fc",
+    "data": [
+      {
+        "text": "algunas",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d47f2b7a-8ac1-48cf-b133-8db6cea4a504",
+    "data": [
+      {
+        "text": "alguno",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "de734989-d82c-4368-b58a-39a96364a77a",
+    "data": [
+      {
+        "text": "alguna",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ced121a7-0f7d-4fab-a71c-b9db058d5c08",
+    "data": [
+      {
+        "text": "algún",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8b789b42-211b-48f1-aeb2-5545a51ecc55",
+    "data": [
+      {
+        "text": "no recuerdo ningún",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "56820633-9bee-40a6-9ec2-4d0cef1c9ec2",
+    "data": [
+      {
+        "text": "no recuerdo ninguna",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "5aa3b99d-0a94-4086-894f-61931554c23b",
+    "data": [
+      {
+        "text": "no recuerdo",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e54aa89b-9cd3-4431-8bea-1fb3a8d44cd5",
+    "data": [
+      {
+        "text": "no me acuerdo",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f808d76c-a7cb-45b4-8b74-4fcc878ff0a6",
+    "data": [
+      {
+        "text": "hmmm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d1456a17-4203-4884-942f-5a55953203f5",
+    "data": [
+      {
+        "text": "hmm",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "68257e99-242b-4aa8-8f2f-c9b3d3ad14bd",
+    "data": [
+      {
+        "text": "no tengo ni ",
+        "userDefined": false
+      },
+      {
+        "text": "la menor",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " idea",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "37c39ff5-eec5-4d60-8565-996e50cd47ae",
+    "data": [
+      {
+        "text": "no tengo ni idea",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9e8c2447-275e-46b0-bc24-55263ffc6834",
+    "data": [
+      {
+        "text": "tengo duda",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "0431189f-00b2-4cee-89ee-66a13ff6bea5",
+    "data": [
+      {
+        "text": "tengo la duda",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "252ec8bf-ce50-4735-9c46-46214fe1a745",
+    "data": [
+      {
+        "text": "tengo dudas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "56ab1bd0-b076-4802-b926-1532ada846cb",
+    "data": [
+      {
+        "text": "estoy dudosa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e1627daf-a741-4aeb-9f4f-4ea8cc98787b",
+    "data": [
+      {
+        "text": "estoy dudoso",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b91848b6-5915-4e32-bd28-a86fe9cf33cd",
+    "data": [
+      {
+        "text": "dudo",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7aea0203-441e-4a2a-bf6d-d9bc131a4a01",
+    "data": [
+      {
+        "text": "lo dudo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "88a9a8ee-b591-4f23-9502-1163e09df42b",
+    "data": [
+      {
+        "text": "no lo sé",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9bea8e8d-d4ab-4f72-99ea-665be5d44597",
+    "data": [
+      {
+        "text": "ni idea",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "32eed5b2-5708-44a9-a9b8-8bba5f19ae26",
+    "data": [
+      {
+        "text": "no sé",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "dcdaeeb7-6312-4c50-99ce-8935d1d7277b",
+    "data": [
+      {
+        "text": "tengo algunas dificultades",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " para mantener la atención",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "75efff74-61f2-4e96-8a98-5d09ada1e2a1",
+    "data": [
+      {
+        "text": "tengo algunos problemas",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " para prestar atención",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "48797ea1-a059-4107-a5d9-040a3f13648d",
+    "data": [
+      {
+        "text": "tengo algunas dificultades",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " para concentrarme",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "623ac13a-180a-4ad8-aa68-6e59abd647f1",
+    "data": [
+      {
+        "text": "tengo algunos problemas",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " para concentrarme",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "41edb455-420d-4f7c-b720-d1a137719e2a",
+    "data": [
+      {
+        "text": "tengo ",
+        "userDefined": false
+      },
+      {
+        "text": "muchas dificultades",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " para mantener la atención",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "81de6a74-2c5b-4429-b685-95e17e413bf0",
+    "data": [
+      {
+        "text": "tengo muchos problemas",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " para prestar atención",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7b5d9b50-68ed-44ff-ac3c-e474960714d5",
+    "data": [
+      {
+        "text": "tengo ",
+        "userDefined": false
+      },
+      {
+        "text": "muchas dificultades",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " para concentrarme",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a7b42fb8-b1f3-45ff-9882-e5aea523fb71",
+    "data": [
+      {
+        "text": "tengo muchos problemas",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " para concentrarme",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1789e1b6-e0d4-478e-b438-e2a399263cad",
+    "data": [
+      {
+        "text": "tengo dificultades",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": true
+      },
+      {
+        "text": " para mantener la atención",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "4d840ade-a1a2-4ece-8e44-ed5e16edd465",
+    "data": [
+      {
+        "text": "tengo problemas",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " para prestar atención",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c8bc16b9-8426-438a-942b-139e78060489",
+    "data": [
+      {
+        "text": "tengo dificultades",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " para concentrarme",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3a3469f3-f9d5-4abf-850e-5a6dace328e3",
+    "data": [
+      {
+        "text": "tengo problemas",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " para concentrarme",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1ca5890d-a4dc-4569-afb1-4c1c107a62f7",
+    "data": [
+      {
+        "text": "no tengo difucultades",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": true
+      },
+      {
+        "text": " para mantener la atención",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a23a0b2f-80c9-4eaf-98f1-a5d3a0381996",
+    "data": [
+      {
+        "text": "no tengo problemas",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " para prestar atención",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "5901906c-1fc9-4839-9544-27568845029f",
+    "data": [
+      {
+        "text": "no tengo difucultades",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": true
+      },
+      {
+        "text": " para concentrarme",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "dce30de9-f371-4631-8cca-0d76356f88a8",
+    "data": [
+      {
+        "text": "no tengo problemas",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " para concentrarme",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "82630ce4-554b-4966-8422-d9ae10c7039f",
+    "data": [
+      {
+        "text": "nunca",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " tengo difucultades para mantener la atención",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ea1f1e35-80ad-460f-80ea-76f56a7b2f3d",
+    "data": [
+      {
+        "text": "nunca",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tengo problemas",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " para prestar atención",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "379f5140-a9d7-49c3-a93c-3ce03534a900",
+    "data": [
+      {
+        "text": "nunca",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " tengo difucultades para concentrarme",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d378bb83-bfd7-4403-ae57-4129de12a7c1",
+    "data": [
+      {
+        "text": "nunca",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tengo problemas",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " para concentrarme",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "39d43a0b-1444-439f-9a66-31a3dad310e1",
+    "data": [
+      {
+        "text": "sin parar",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7d301e82-6f28-4170-b4cb-c01c1a02ce85",
+    "data": [
+      {
+        "text": "to el rato",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "75449944-d84c-4e9d-8f55-51565cc32024",
+    "data": [
+      {
+        "text": "ni un solo día",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3ea3da61-b7f6-4eb3-bdad-bca2691edb81",
+    "data": [
+      {
+        "text": "algunas veces",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2cd1ced4-c336-4ff0-8249-a77446ca6458",
+    "data": [
+      {
+        "text": "algunas veces",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " por las ",
+        "userDefined": false
+      },
+      {
+        "text": "noches",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c4a1ea82-6e73-4c97-ae93-bffa380c5018",
+    "data": [
+      {
+        "text": "la mayoría de las veces",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "4637a59c-1fcc-4b89-996a-bf66f5aebafe",
+    "data": [
+      {
+        "text": "la mayoría de veces",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "30e293de-7127-4c54-af6c-6330bc2e2cdf",
+    "data": [
+      {
+        "text": "la mayoría de los días",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9eef7f7a-fdbc-4abb-88bf-3c366285d781",
+    "data": [
+      {
+        "text": "la mayoría de días",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f6b527dd-c3a0-433e-80cb-3e17dd75232d",
+    "data": [
+      {
+        "text": "casi todos los días",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "6dc1fe3e-40c0-4bdc-b948-cccdae0a14d4",
+    "data": [
+      {
+        "text": "poca",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " diría yo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d6248ab6-a795-43a9-9309-52aff8f13de1",
+    "data": [
+      {
+        "text": "poca",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "848f8c62-78fa-4c18-a957-438041e0df8c",
+    "data": [
+      {
+        "text": "más bien ",
+        "userDefined": false
+      },
+      {
+        "text": "poca",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": ", solo en la ",
+        "userDefined": false
+      },
+      {
+        "text": "última semana",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2f175a0b-a787-4d28-91ea-b981fcca39fb",
+    "data": [
+      {
+        "text": "depende de",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " lo ",
+        "userDefined": false
+      },
+      {
+        "text": "que",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pase",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "5412671b-bd2f-4756-a797-0419ba7cd483",
+    "data": [
+      {
+        "text": "depende de",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " lo ",
+        "userDefined": false
+      },
+      {
+        "text": "que",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " suceda",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "467323cb-4f61-4d7e-b6f3-8f88c1c264fa",
+    "data": [
+      {
+        "text": "depende",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "del día",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "20dba703-679c-48a2-a3d1-025282dcb3db",
+    "data": [
+      {
+        "text": "con frecuencia",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ee1ad9ff-035b-40f7-aea0-354ca4c72856",
+    "data": [
+      {
+        "text": "varias veces",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b89c8930-fda8-4164-ac75-ba66c0455a04",
+    "data": [
+      {
+        "text": "2 o ",
+        "userDefined": false
+      },
+      {
+        "text": "3 veces",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7fdd30b0-0993-407f-bdf8-a34b139da3f5",
+    "data": [
+      {
+        "text": "dos",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " o ",
+        "userDefined": false
+      },
+      {
+        "text": "tres veces",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c674e819-725f-407c-a878-d4bdeea22459",
+    "data": [
+      {
+        "text": "Solo por las ",
+        "userDefined": false
+      },
+      {
+        "text": "mañanas",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "unas pocas",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d841e374-dc67-41e9-bca5-a46618dca266",
+    "data": [
+      {
+        "text": "con ",
+        "userDefined": false
+      },
+      {
+        "text": "muy poca frecuencia",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8e296e56-d6b7-4d74-be74-5fc7d30d2c59",
+    "data": [
+      {
+        "text": "estas ",
+        "userDefined": false
+      },
+      {
+        "text": "últimas semana",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "ninguna vez",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8b7c3fa3-1844-4055-b1ee-4743ec430045",
+    "data": [
+      {
+        "text": "esta ",
+        "userDefined": false
+      },
+      {
+        "text": "última semana",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "ninguna vez",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "22af1f50-64cc-45ab-af3b-91c795a10ff3",
+    "data": [
+      {
+        "text": "Con ",
+        "userDefined": false
+      },
+      {
+        "text": "muy poca frecuencia",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": ", me siento ",
+        "userDefined": false
+      },
+      {
+        "text": "bastante",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " animado y con entusiasmo en estos dias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9718f185-fcfe-404d-a600-fdbfd3ff6fab",
+    "data": [
+      {
+        "text": "con ",
+        "userDefined": false
+      },
+      {
+        "text": "ninguna frecuencia",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a5850b37-36b6-4d41-bc79-0cf2d2583afa",
+    "data": [
+      {
+        "text": "con ",
+        "userDefined": false
+      },
+      {
+        "text": "ninguna",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "359c4c7f-0685-42bb-8753-dc63d9f45f79",
+    "data": [
+      {
+        "text": "para nada",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f9d56cc1-3ee1-4b6d-838d-453dae8d4206",
+    "data": [
+      {
+        "text": "en ningún momento",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1f2b1e79-1aba-4e89-a4d5-2b77dab2374c",
+    "data": [
+      {
+        "text": "solo ",
+        "userDefined": false
+      },
+      {
+        "text": "un día",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b580c8ee-929a-4537-88fc-a536564f9204",
+    "data": [
+      {
+        "text": "solo ",
+        "userDefined": false
+      },
+      {
+        "text": "una vez",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "aba9092f-2821-4fe7-bd58-42f5b773709f",
+    "data": [
+      {
+        "text": "solo me ",
+        "userDefined": false
+      },
+      {
+        "text": "pasó una vez",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "03f0d1bb-ec9f-4d4b-9d03-c221f3d110c1",
+    "data": [
+      {
+        "text": "con ",
+        "userDefined": false
+      },
+      {
+        "text": "poca frecuencia",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "5d0cf6f9-378a-4e59-9edd-f9445c27ac6d",
+    "data": [
+      {
+        "text": "continuamente",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f7ec1236-5d1e-4aeb-9b41-afc528096820",
+    "data": [
+      {
+        "text": "la verdad, guapa, ",
+        "userDefined": false
+      },
+      {
+        "text": "ninguna",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f9648d74-f476-43ea-be21-a8a39dd1dad9",
+    "data": [
+      {
+        "text": "ninguna",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": ", duermo muy bien",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "db9abfba-c200-4c03-a55e-535c77388c34",
+    "data": [
+      {
+        "text": "ninguna vez",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "be4fe497-2325-4659-99cf-494c38d0f552",
+    "data": [
+      {
+        "text": "rotundamente ",
+        "userDefined": false
+      },
+      {
+        "text": "ninguna vez",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "fc47adb3-1b42-427f-97fa-f7d0c0f23503",
+    "data": [
+      {
+        "text": "depende, en",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " la TV ",
+        "userDefined": false
+      },
+      {
+        "text": "sí",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " me concentro bien",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "5bf1d7bd-99d8-4f4e-9d75-889fa33ab62f",
+    "data": [
+      {
+        "text": "bastante",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " dificultad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a4c25fa4-6580-44d4-b849-49c58018b91d",
+    "data": [
+      {
+        "text": "mucha",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ccba8019-5547-4c2c-85a4-237ea06ec750",
+    "data": [
+      {
+        "text": "mucho",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ecf4e916-9cc3-45d8-8bfb-674b727c2afc",
+    "data": [
+      {
+        "text": "a menudo",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1167b8a5-dc6b-4da5-a04d-1b4724175037",
+    "data": [
+      {
+        "text": "24h",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f4a9de86-c35a-4d10-8444-bde7659a505a",
+    "data": [
+      {
+        "text": "las 24h",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ab68c6bc-8cc6-4ba3-8ec3-fbc8afcc9368",
+    "data": [
+      {
+        "text": "las 24 horas",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b73c72a0-09c5-42eb-8e02-745d80c87f34",
+    "data": [
+      {
+        "text": "las 24h del día",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "116fadd5-f711-4df2-a8eb-9c30ba4ab373",
+    "data": [
+      {
+        "text": "las 24 horas del día",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "es",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "constante",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e79b7276-a03a-4bf9-bea7-f80408182b61",
+    "data": [
+      {
+        "text": "pasa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "diariamente",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "408d9d86-fce4-4b7e-9952-a2cb3c7c874f",
+    "data": [
+      {
+        "text": "me pasa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "a diario",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1c0bcc17-eccd-4bc1-8ca7-661effde6131",
+    "data": [
+      {
+        "text": "me ocurre ",
+        "userDefined": false
+      },
+      {
+        "text": "a diario",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "66fc24b9-0ac7-43ae-b27a-8b45f5714001",
+    "data": [
+      {
+        "text": "diariamente",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "86e018c7-4f6a-474b-92d3-bba9e40c6374",
+    "data": [
+      {
+        "text": "a diario",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3720dd94-66b3-4326-8cbc-fa38e06889a9",
+    "data": [
+      {
+        "text": "me ocurre ",
+        "userDefined": false
+      },
+      {
+        "text": "más de la cuenta",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3639da9f-559c-4ae5-9616-2337e3d08e9c",
+    "data": [
+      {
+        "text": "con mucha frecuencia",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "cb23d1e9-413c-42b3-8104-320dbe86dc67",
+    "data": [
+      {
+        "text": "me pasa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "muchas veces",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a7611f29-a02d-43fa-bd97-fc4b292e2d11",
+    "data": [
+      {
+        "text": "muchas veces",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " me sucede",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1209aed8-c62f-4d16-a22e-37974a6ddd08",
+    "data": [
+      {
+        "text": "muchas veces",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " me pasa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "fb143c44-ed45-49b0-9d9a-c1b682b4b74b",
+    "data": [
+      {
+        "text": "muchas",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "veces me",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ocurre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "5f23c501-a34f-416f-9eed-ff195160995c",
+    "data": [
+      {
+        "text": "muchas veces",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8288fefb-9343-495d-808b-7c75041c35b2",
+    "data": [
+      {
+        "text": "muchísimo",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7c1cc77d-d487-47d4-bfa8-98237336faac",
+    "data": [
+      {
+        "text": "me pasa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "muchísimo",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2eaeeef9-63e8-4eb0-8753-6588c9f8e35b",
+    "data": [
+      {
+        "text": "me ocurre ",
+        "userDefined": false
+      },
+      {
+        "text": "siempre",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f0b3ae3d-6f39-4069-bebf-0854940b40de",
+    "data": [
+      {
+        "text": "siempre",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "me pasa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e100281d-7bb2-4a18-b8dc-9a7b08de4389",
+    "data": [
+      {
+        "text": "siempre",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " me ocurre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c757d8ac-b0e4-4359-b87f-ae1614736c77",
+    "data": [
+      {
+        "text": "siempre",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "076a28a2-a935-45d9-b83f-0a7767d564eb",
+    "data": [
+      {
+        "text": "todos los días",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "me pasa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a7234986-aec2-4671-b239-2493184dbdb4",
+    "data": [
+      {
+        "text": "me pasa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "siempre",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c909ff5c-7295-4675-9b6e-ece6785b75c9",
+    "data": [
+      {
+        "text": "me ocurre ",
+        "userDefined": false
+      },
+      {
+        "text": "todos los días",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9841e8bf-a25d-42b2-b0f5-f33ff870e2df",
+    "data": [
+      {
+        "text": "todos los días",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " me ocurre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3090b2e0-4efa-48bd-8307-12a8f7a08e33",
+    "data": [
+      {
+        "text": "todos los días",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "226d2a2b-698d-45b4-9118-9deb85979c5a",
+    "data": [
+      {
+        "text": "bastantes veces",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "fdeed5af-8f61-4a6b-aee7-9d0563d84239",
+    "data": [
+      {
+        "text": "incesantemente",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "aaa970da-482a-4607-b112-74f40dc2eb70",
+    "data": [
+      {
+        "text": "constantemente",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "5b74d674-2fdf-4c2c-9e8b-faec4df46547",
+    "data": [
+      {
+        "text": "abundantemente",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "007bc43d-530d-4174-a908-6e3df9d2f489",
+    "data": [
+      {
+        "text": "con bastante frecuencia",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3066ceca-0212-4d7a-887d-4b7011f6c117",
+    "data": [
+      {
+        "text": "a menudo",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " me sucede",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7d5e9132-12f5-468a-9a91-17d209c77869",
+    "data": [
+      {
+        "text": "me ocurre ",
+        "userDefined": false
+      },
+      {
+        "text": "a menudo",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "86f643bb-a6d9-4108-971d-7e4cf3cac594",
+    "data": [
+      {
+        "text": "me sucede ",
+        "userDefined": false
+      },
+      {
+        "text": "a menudo",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f8bf6f40-6564-4bfb-a4cd-84099515f0b0",
+    "data": [
+      {
+        "text": "lo pienso ",
+        "userDefined": false
+      },
+      {
+        "text": "a menudo",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "357614d0-8dac-481d-bbec-df1e06888f4f",
+    "data": [
+      {
+        "text": "me pasa",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "a menudo",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "5f98842c-2e32-4e63-9435-30610aca25a0",
+    "data": [
+      {
+        "text": "a menudo",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "me pasa",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "5c90f71c-8129-4ce0-8fa7-61ef162dcccb",
+    "data": [
+      {
+        "text": "a menudo",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " lo pienso",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "66943a61-34aa-4e89-8ccb-edb36b6989dc",
+    "data": [
+      {
+        "text": "bastante",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ae8ce1d8-a040-4094-82ee-1e54785460cd",
+    "data": [
+      {
+        "text": "en ",
+        "userDefined": false
+      },
+      {
+        "text": "bastantes ocasiones",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "faebfa77-f62d-4fd0-aee2-fc7dc1ecdba8",
+    "data": [
+      {
+        "text": "bastantes",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "veces",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " me ocurre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8d32e16f-79cb-4bf5-864d-1927366f6d2d",
+    "data": [
+      {
+        "text": "me ocurre ",
+        "userDefined": false
+      },
+      {
+        "text": "bastantes veces",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7d7ed133-e12f-4e10-b9e0-027dc83fd175",
+    "data": [
+      {
+        "text": "me pasa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "bastantes veces",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "442f84fd-e56d-4a40-801a-09284c8d1b8f",
+    "data": [
+      {
+        "text": "bastantes",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "veces",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " me pasa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ae54f0bb-236f-42b9-9138-3f10ef932d97",
+    "data": [
+      {
+        "text": "casi todos los días",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " me sucede",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "aa7f4b2c-510c-4d38-b3d9-dd6de554b782",
+    "data": [
+      {
+        "text": "me sucede ",
+        "userDefined": false
+      },
+      {
+        "text": "casi todos los días",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f89f2253-f19a-48d3-af96-b8ec79e8d92b",
+    "data": [
+      {
+        "text": "me pasa ",
+        "userDefined": false
+      },
+      {
+        "text": "casi todos los días",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d7182368-58fb-4c1b-967b-7018e65af8a8",
+    "data": [
+      {
+        "text": "casi todos los días",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "me pasa",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ff11615d-bd69-4334-9c9b-1e5791b2c052",
+    "data": [
+      {
+        "text": "me sucede ",
+        "userDefined": false
+      },
+      {
+        "text": "más de la mitad de los días",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "375dfa44-6aa1-4203-ab02-1c76146f299c",
+    "data": [
+      {
+        "text": "me pasa",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "más de la mitad de los días",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ab7f0176-29eb-47df-9791-93cacbb08c19",
+    "data": [
+      {
+        "text": "me ocurre ",
+        "userDefined": false
+      },
+      {
+        "text": "casi siempre",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "adbda624-9d14-4d61-9d8b-65f8c7f82600",
+    "data": [
+      {
+        "text": "casi siempre",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " me ocurre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a7ee56f7-1697-4e78-9390-aadc2e364205",
+    "data": [
+      {
+        "text": "me pasa casi",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "siempre",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "125828dd-4685-4e90-9d26-decb0e4469fb",
+    "data": [
+      {
+        "text": "casi siempre",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "me pasa",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f086e49d-bfcb-4d74-bee4-f0387933d122",
+    "data": [
+      {
+        "text": "casi siempre",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2f232864-ff90-4587-bb90-5467e58bd41f",
+    "data": [
+      {
+        "text": "un par de veces a",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " la semana",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "153ab8bd-4632-4252-aa39-a9e78be172c7",
+    "data": [
+      {
+        "text": "depende",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ce1b0681-62d0-45aa-8110-8fe8360063b2",
+    "data": [
+      {
+        "text": "pues ",
+        "userDefined": false
+      },
+      {
+        "text": "depende",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9a56b970-81d9-4b33-9f8f-b8ffb59a0b24",
+    "data": [
+      {
+        "text": "dos días a la",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " semana me pasa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "dd6df022-fce1-4d55-8de9-3fee4187bbe1",
+    "data": [
+      {
+        "text": "dos días a la",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " semana ",
+        "userDefined": false
+      },
+      {
+        "text": "sí",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " me sucede",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c13d7cf7-5451-4fcc-ac52-4e34fb1db2c3",
+    "data": [
+      {
+        "text": "un par de días a",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " la semana ",
+        "userDefined": false
+      },
+      {
+        "text": "sí",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " me sucede",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "601170b1-2c63-49fe-aa88-2dc3898f18e2",
+    "data": [
+      {
+        "text": "me he sentido de esa forma ",
+        "userDefined": false
+      },
+      {
+        "text": "a veces",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a132f7cb-b6e2-4472-8582-3c49513e7b6f",
+    "data": [
+      {
+        "text": "me siento de esa forma ",
+        "userDefined": false
+      },
+      {
+        "text": "a veces",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ced1cf84-b56c-464f-b5ad-25ecfaad6093",
+    "data": [
+      {
+        "text": "me he sentido de esa manera ",
+        "userDefined": false
+      },
+      {
+        "text": "a veces",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3d36fe81-14f5-4fdd-91f8-5db607b6e07c",
+    "data": [
+      {
+        "text": "me siento de esa manera ",
+        "userDefined": false
+      },
+      {
+        "text": "a veces",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3fc837fe-ee40-4da1-9604-d15d352f5e6f",
+    "data": [
+      {
+        "text": "a veces me pasa",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "74b81086-0527-4a61-b4aa-b92d245c37ca",
+    "data": [
+      {
+        "text": "me pasa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "alguna vez",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "02836b53-bcf4-4029-81fa-db517e08063a",
+    "data": [
+      {
+        "text": "me sucede ",
+        "userDefined": false
+      },
+      {
+        "text": "alguna vez",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a965892c-0a6a-435b-8bf9-2e7206591a2d",
+    "data": [
+      {
+        "text": "alguna vez que otra",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ba6842ea-7d4d-4c5f-b670-cb49cab09c9e",
+    "data": [
+      {
+        "text": "alguna que otra vez",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "6a82aeb5-40df-4813-ba95-a3c2d44631b1",
+    "data": [
+      {
+        "text": "más bien ",
+        "userDefined": false
+      },
+      {
+        "text": "de vez en cuando",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " diría yo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "16367803-e38e-4de6-9342-c898337728c6",
+    "data": [
+      {
+        "text": "de vez en cuando",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " diría yo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "39a24f74-04b4-4979-8954-a2c460899686",
+    "data": [
+      {
+        "text": "más bien ",
+        "userDefined": false
+      },
+      {
+        "text": "de vez en cuando",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "abc66604-de0c-4095-93af-aeab870001f3",
+    "data": [
+      {
+        "text": "de vez en cuando",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "dab351d6-9ddb-459f-982a-180e251989eb",
+    "data": [
+      {
+        "text": "en ocasiones",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " creo ",
+        "userDefined": false
+      },
+      {
+        "text": "que",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " son ",
+        "userDefined": false
+      },
+      {
+        "text": "así las",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " cosas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "775adeac-f4c2-4062-939f-128868971d30",
+    "data": [
+      {
+        "text": "en ocasiones",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "me pasa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b41ba8aa-8603-4044-b6cc-7ca50d61f4f0",
+    "data": [
+      {
+        "text": "en ocasiones",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ac902dcd-cc36-4f2e-8a77-291a1f2bf1b6",
+    "data": [
+      {
+        "text": "algunos días",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " siento ",
+        "userDefined": false
+      },
+      {
+        "text": "que",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "es",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " así",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "43d65dda-b48b-4bf0-acc4-a02a435dc07e",
+    "data": [
+      {
+        "text": "en algunos días",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " siento ",
+        "userDefined": false
+      },
+      {
+        "text": "que",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "es",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " así",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "89e019db-1f10-475d-88fd-d8be616c131f",
+    "data": [
+      {
+        "text": "algunos días",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " me siento así",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7b9a5000-dc1a-4707-8bad-0474473765e9",
+    "data": [
+      {
+        "text": "algunos días",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " me sucede",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "373d9484-6b64-495b-ae06-f6b1936976b0",
+    "data": [
+      {
+        "text": "me pasa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "algunos días",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3ce3c521-137c-449f-9b6e-f854a4a3e096",
+    "data": [
+      {
+        "text": "me ocurre en ",
+        "userDefined": false
+      },
+      {
+        "text": "unos pocos",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " días de la semana",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9cbf39e7-bc07-4c00-b2cb-5623f19507f9",
+    "data": [
+      {
+        "text": "las cosas son así ",
+        "userDefined": false
+      },
+      {
+        "text": "en ocasiones",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c612a23e-0791-4da1-912d-e8c681ca598e",
+    "data": [
+      {
+        "text": "unos días",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " de la semana",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3e0a3ada-f283-48ba-91a5-bc63b2e1bc39",
+    "data": [
+      {
+        "text": "algunos días",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " de la semana",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "4df69098-3bc8-4e08-8d1a-36dc1989e547",
+    "data": [
+      {
+        "text": "pocos",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " días de la semana",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c7118d9d-e16d-4a58-aa3e-74bd10a2b0ff",
+    "data": [
+      {
+        "text": "me pasa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " con ",
+        "userDefined": false
+      },
+      {
+        "text": "poca frecuencia",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f08e0ac4-61d3-4e8e-9688-b78614364f8d",
+    "data": [
+      {
+        "text": "me sucede con ",
+        "userDefined": false
+      },
+      {
+        "text": "poca frecuencia",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3bddb2f4-c169-46f4-8d2d-d1ff05721973",
+    "data": [
+      {
+        "text": "en pocas",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " ocasiones",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c896f8f7-8cc9-4e65-8546-4d1ea3ab513f",
+    "data": [
+      {
+        "text": "pocas",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2468d7be-9491-4c4e-b3df-4613d796e2c6",
+    "data": [
+      {
+        "text": "pocas veces",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3d8e1251-e847-409d-8c9e-a4bb8e3a0d26",
+    "data": [
+      {
+        "text": "me sucede ",
+        "userDefined": false
+      },
+      {
+        "text": "unas pocas veces",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "4ea7ad0d-7289-4799-a5e6-87e4864490f6",
+    "data": [
+      {
+        "text": "unas pocas veces",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7e9c02e2-638f-4f53-85b9-11ac9bb3498e",
+    "data": [
+      {
+        "text": "nunca",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " me ocurre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "aa27ca71-50de-47ad-b55a-8498bb59d327",
+    "data": [
+      {
+        "text": "casi nunca",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " me ocurre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c78e45bc-099b-4b6d-bf82-663c36200c79",
+    "data": [
+      {
+        "text": "munca me pasa",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "95c641ea-357e-48f8-a37d-491914d0c952",
+    "data": [
+      {
+        "text": "prácticamente nunca",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " me pasa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "5f4de9cc-d893-4929-9b1f-242f38a5ca0e",
+    "data": [
+      {
+        "text": "prácticamente nunca",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 3,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "dfc7386c-1fb7-4e0d-a941-7c5445d086f0",
+    "data": [
+      {
+        "text": "ningún día",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "82a1a12f-c72d-4002-87fc-1160db1b718b",
+    "data": [
+      {
+        "text": "ningún día",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " sinceramente",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c003014f-e261-4665-b36e-88d33b042a01",
+    "data": [
+      {
+        "text": "pues sinceramente ",
+        "userDefined": false
+      },
+      {
+        "text": "ningún día",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "06e12e76-aced-4246-bd8e-63f958d30bfd",
+    "data": [
+      {
+        "text": "no me",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "ha",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pasado nunca",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "fb841fbf-8a2d-4e00-b245-7e3dad65dbaf",
+    "data": [
+      {
+        "text": "no me",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " sucede ",
+        "userDefined": false
+      },
+      {
+        "text": "nunca",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d255dc31-c002-4f4f-b7dd-4bb7e4127f74",
+    "data": [
+      {
+        "text": "no me",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "ha",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " sucedido ",
+        "userDefined": false
+      },
+      {
+        "text": "nunca",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "10fbf2cd-7aa5-4738-b09a-503c1046b34f",
+    "data": [
+      {
+        "text": "la verdad ",
+        "userDefined": false
+      },
+      {
+        "text": "es",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " que ",
+        "userDefined": false
+      },
+      {
+        "text": "nunca me pasa",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3b9ae3f0-0499-4d22-ab35-b8eebc13d9a3",
+    "data": [
+      {
+        "text": "con ",
+        "userDefined": false
+      },
+      {
+        "text": "muy poca frecuencia",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " la verdad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "db4e2345-ca5c-46d9-8b2f-965a44c20078",
+    "data": [
+      {
+        "text": "poco",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "fdd8a1ee-9382-493a-81e4-5d902bbc9bb0",
+    "data": [
+      {
+        "text": "muy poca",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "363515e8-20d3-4d5f-909d-b3f75e05a51a",
+    "data": [
+      {
+        "text": "muy poco",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "39e1d5f1-2e60-405c-a30f-9154e65ab5b2",
+    "data": [
+      {
+        "text": "muy pocas veces",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "16260c5f-3a27-428e-920c-6adad7ec6379",
+    "data": [
+      {
+        "text": "me sucede ",
+        "userDefined": false
+      },
+      {
+        "text": "muy pocas veces",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2ea3cb0a-de96-4045-b269-402f025e015c",
+    "data": [
+      {
+        "text": "nunca jamás",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e0313a5c-f129-4bf5-873c-efb51d07fbcc",
+    "data": [
+      {
+        "text": "jamás",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      },
+      {
+        "text": " haría algo así",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "df185e15-0578-4c56-9efe-7ac182c1833e",
+    "data": [
+      {
+        "text": "nunca",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "befbe619-8284-4d75-9fb9-32b58957cce1",
+    "data": [
+      {
+        "text": "jamás",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1b0e0755-8a4f-4767-a7e0-8b44542618a7",
+    "data": [
+      {
+        "text": "pues ",
+        "userDefined": false
+      },
+      {
+        "text": "muy pocas veces",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9bb1307d-4598-4853-8f78-f8b5f227c485",
+    "data": [
+      {
+        "text": "nunca me pasa",
+        "meta": "@Respuesta",
+        "alias": "respuesta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

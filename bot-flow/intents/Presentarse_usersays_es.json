@@ -1,0 +1,277 @@
+[
+  {
+    "id": "c29811af-8358-4007-9d0d-1eddf6e02504",
+    "data": [
+      {
+        "text": "empezar de ",
+        "userDefined": false
+      },
+      {
+        "text": "cero",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9d1781b1-ac79-4fdf-9d40-1d696e8a0eed",
+    "data": [
+      {
+        "text": "comenzar desde el principio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b49743e8-d9d1-4e93-bef8-8fdbb4eee2dc",
+    "data": [
+      {
+        "text": "reset",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "53bf0a84-8170-4bd6-b857-26bd81644472",
+    "data": [
+      {
+        "text": "reinicio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f1c5429c-3d13-4c14-93f8-4d593843292a",
+    "data": [
+      {
+        "text": "empezar de nuevo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8aaede81-e717-42a0-b105-e8eeddd54b36",
+    "data": [
+      {
+        "text": "empieza de nuevo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ffd7c90f-90c3-4fa5-baf9-4b04801d6f46",
+    "data": [
+      {
+        "text": "reiniciar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "427e57db-e026-4f9e-b5d2-8897edeb6dd7",
+    "data": [
+      {
+        "text": "Ola",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "eadf8db2-d6a7-4724-ae0d-fa1f4d9a8c7c",
+    "data": [
+      {
+        "text": "Que pasa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "4eb041d4-d4de-4194-8b31-245a559e1fb4",
+    "data": [
+      {
+        "text": "Hola",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "!!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "089c2fef-f2e6-42f6-8064-420a130769d1",
+    "data": [
+      {
+        "text": "Hola",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "060add3e-6856-4136-afc8-528274299b9b",
+    "data": [
+      {
+        "text": "Hoola",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "278309fa-4335-416b-bb22-3a63d61c32a6",
+    "data": [
+      {
+        "text": "Ey",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3c5744c8-1908-4539-84d5-661c83e8421f",
+    "data": [
+      {
+        "text": "Hey",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ab6b95a0-0e58-4fc4-9967-95a65a05a4be",
+    "data": [
+      {
+        "text": "Que tal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "baa4e4eb-118f-4a15-bd2c-284e33503291",
+    "data": [
+      {
+        "text": "¿",
+        "userDefined": false
+      },
+      {
+        "text": "Qué pasa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8e4a30d5-ac68-4c2a-ad63-f62b0d01df6c",
+    "data": [
+      {
+        "text": "¿Qué hay?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "985f9a10-12aa-4e03-804d-b400bbcc413d",
+    "data": [
+      {
+        "text": "¿Qué tal?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "bc6e7ba8-bc47-47d9-a0d5-e0277f3025b3",
+    "data": [
+      {
+        "text": "Hola",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

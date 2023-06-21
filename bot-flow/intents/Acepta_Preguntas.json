@@ -1,0 +1,37 @@
+{
+  "id": "97fd3c3a-863f-4629-95a0-391b5d207a40",
+  "name": "Acepta_Preguntas",
+  "auto": true,
+  "contexts": [
+    "Esperar_Resp1"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Me tienes que indicar con qué frecuencia te ocurre."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

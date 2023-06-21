@@ -1,0 +1,39 @@
+{
+  "id": "2976c6a5-72c0-4b72-be5a-37a36bdc8588",
+  "parentId": "7758ac1f-cdde-40b3-a3c7-c73d44132d02",
+  "rootParentId": "7758ac1f-cdde-40b3-a3c7-c73d44132d02",
+  "name": "Respuesta9 - fallback",
+  "contexts": [
+    "Esperar_Email",
+    "Respuesta9-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Respuesta9.Respuesta9-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Por favor, introduce tu dirección de correo electrónico."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

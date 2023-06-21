@@ -1,0 +1,38 @@
+{
+  "id": "11a237d3-4794-4005-b7ae-f5449708edf1",
+  "parentId": "aa102dff-7822-4917-b0d2-d03bda30130b",
+  "rootParentId": "aa102dff-7822-4917-b0d2-d03bda30130b",
+  "name": "Despedida - fallback",
+  "contexts": [
+    "Despedida-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Despedida.Despedida-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Ya hemos terminado :-) Si quieres empezar de nuevo teclea \"REINICIO\"."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

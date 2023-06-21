@@ -1,0 +1,64 @@
+{
+  "id": "5c362c6f-8dcd-4ac7-bb6e-fffda9b929e3",
+  "parentId": "7887179f-fd5d-4fc3-bbc9-7d2b2cd53f21",
+  "rootParentId": "7887179f-fd5d-4fc3-bbc9-7d2b2cd53f21",
+  "name": "Respuesta8 - fallback",
+  "contexts": [
+    "Esperar_Resp9",
+    "Respuesta8-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Respuesta8.Respuesta8-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Ningún día"
+            },
+            {
+              "title": "Varios días"
+            },
+            {
+              "title": "A menudo"
+            },
+            {
+              "title": "Casi todos los días"
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Por favor, indícame con qué frecuencia has tenido este tipo de pensamientos."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

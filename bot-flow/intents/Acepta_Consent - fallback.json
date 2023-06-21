@@ -1,0 +1,39 @@
+{
+  "id": "559e1057-2c0c-42a3-9a19-e7581dd0e26d",
+  "parentId": "d823181c-330c-4bc0-83f3-0cb36e79211c",
+  "rootParentId": "d823181c-330c-4bc0-83f3-0cb36e79211c",
+  "name": "Acepta_Consent - fallback",
+  "contexts": [
+    "Esperar_Nombre",
+    "Acepta_Consent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Acepta_Consent.Acepta_Consent-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Disculpa, no reconozco eso como un nombre, ¿me puedes indicar otra forma de llamarte?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

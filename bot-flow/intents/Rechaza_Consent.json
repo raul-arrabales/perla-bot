@@ -1,0 +1,38 @@
+{
+  "id": "705fd47c-dfe2-47ab-84e2-e6e7295b75f9",
+  "name": "Rechaza_Consent",
+  "auto": true,
+  "contexts": [
+    "Esperar_Confirmacion"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Entonces lo dejamos aquí. Si cambias de opinión ya sabes dónde me tienes ;-) Puedes empezar de nuevo diciéndome \"hola\" o \"reinicio\"."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}
