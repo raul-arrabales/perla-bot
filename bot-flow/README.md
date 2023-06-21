@@ -1,1 +1,1 @@
-DialogFlow Context, Intents and Tranining Phrases for Perla Bot
+DialogFlow Entities, Intents and Tranining Phrases for Perla Bot
