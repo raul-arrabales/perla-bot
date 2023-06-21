@@ -1,0 +1,9 @@
+{
+  "id": "XXXXXXXXXXXX",
+  "name": "Respuesta",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": true
+}
