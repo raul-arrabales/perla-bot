@@ -9,7 +9,7 @@ Most depression assessment tools are based on self-report questionnaires, such a
 - Fulfillment (Backend serverless fulfillment).
 - Data (anonymized dataset from both Perla and the PHQ-9 form). 
 - Analytics (descriptive and inferential analysis for Perla beta 2). 
-- Bot flow (not released yet).
+- Bot flow (agent's entities, intents in DialogFlow).
 
 ![Perla's face](Perla_320.png)
 
